@@ -106,6 +106,8 @@ All four payment methods are available: MTN MoMo, Airtel Money, bank transfer an
 
 Submitted references are locked while awaiting verification, and paid/processing orders no longer show duplicate payment forms. Administrators verify receipt before marking manual payments paid.
 
+Checkout requires the customer to read and agree to the order terms. API clients must send `acceptedTerms: true`; each new order records the terms version, text and acceptance timestamp in `order_terms`. Run `php scripts/console.php init` after updating to add this table. Existing orders are retained without retroactively assigning agreement. Customers may collect from MATTE, or MATTE connects them with a transporter and they negotiate delivery price, timing and arrangements directly with that transporter. Delivery charges are separate from product totals.
+
 ```powershell
 npm ci
 # Browser tests use locally installed Microsoft Edge through Playwright.

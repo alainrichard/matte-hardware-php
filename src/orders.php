@@ -2,6 +2,8 @@
 const UNPAID=['submitted','proforma_issued'];
 const METHODS=['mtn','airtel','card','bank'];
 const STATUSES=['submitted','proforma_issued','paid','preparing','delivered','cancelled'];
+const ORDER_TERMS_VERSION='2026-10-23-transporter';
+const ORDER_TERMS_TEXT='Review products, quantities, contact details and collection or delivery details before confirming. Customers may collect from MATTE without a delivery fee. For delivery, MATTE connects the customer with a transporter; the customer negotiates the delivery price, timing and arrangements directly with the transporter. Delivery charges are separate from the product total. A proforma is not proof of payment; MATTE verifies receipt of payment. Contact MATTE for order changes before payment.';
 function orderByToken(string $token,bool $lock=false): array {
     if(!preg_match('/^[A-Za-z0-9_-]{16,64}$/',$token))fail('Order not found.',404);
     $o=one('SELECT * FROM orders WHERE public_token=?'.($lock?' FOR UPDATE':''),[$token]);if(!$o)fail('Order not found.',404);return $o;
@@ -13,6 +15,7 @@ function mapOrder(array $o,bool $public=false): array {
 }
 function waPhone(string $s): string {$s=preg_replace('/\D/','',$s);return str_starts_with($s,'0')?'250'.substr($s,1):$s;}
 function createOrder(array $b): array {
+    if(($b['acceptedTerms']??null)!==true)fail('Please read and agree to the order terms and conditions before continuing.');
     rate('orders',20);$user=auth('customer',true);$c=is_array($b['customer']??null)?$b['customer']:[];$name=clean($c['name']??'',120);$phone=clean($c['phone']??'',30);$email=clean($c['email']??'',160);
     if(!$name||strlen(preg_replace('/\D/','',$phone))<9)fail('Enter your name and a valid phone number.');
     if($email&&!filter_var($email,FILTER_VALIDATE_EMAIL))fail('Enter a valid email address.');
@@ -36,6 +39,7 @@ function createOrder(array $b): array {
         $no=null;if($invoice){$no=(int)one('SELECT next_value FROM invoice_counter WHERE id=1 FOR UPDATE')['next_value'];sql('UPDATE invoice_counter SET next_value=next_value+1 WHERE id=1');}
         $values=['public_token'=>$token,'proforma_no'=>$no,'status'=>$invoice?'proforma_issued':'submitted','customer_name'=>$name,'customer_phone'=>$phone,'customer_email'=>$email?:null,'customer_company'=>$invoice?($company?:null):null,'customer_tin'=>$invoice&&$isTin?$tin:null,'purchase_code'=>$invoice&&$isTin?$purchase:null,'delivery_method'=>$method,'delivery_address'=>$method==='delivery'?$address:null,'note'=>textValue($b['note']??'',600)?:null,'total_rwf'=>$total,'currency'=>($b['currency']??'')==='USD'?'USD':'RWF','usd_rwf_rate'=>$rate>0?$rate:1400,'invoice_requested'=>$invoice,'notify_on_delivery'=>$notify,'service_request'=>in_array($b['serviceRequest']??'', ['technician','plumber'],true)?$b['serviceRequest']:'none','service_note'=>textValue($b['serviceNote']??'',600)?:null,'customer_id'=>$user['sub']??null,'payment_method'=>$pay,...$pin];$id=insert('orders',$values);
         foreach($lines as $l){sql('UPDATE products SET in_stock=(stock_quantity-?>0),stock_quantity=stock_quantity-?,updated_at=NOW(3) WHERE id=?',[$l['qty'],$l['qty'],$l['product_id']]);insert('order_items',['order_id'=>$id,...$l]);}
+        insert('order_terms',['order_id'=>$id,'version'=>ORDER_TERMS_VERSION,'terms_text'=>ORDER_TERMS_TEXT]);
         if($requestId)sql('UPDATE checkout_requests SET order_id=? WHERE request_id=?',[$id,$requestId]);
         if($invoice&&$email)sql("INSERT IGNORE INTO mail_jobs(order_id,kind) VALUES(?,'proforma')",[$id]);return ['token'=>$token,'proformaNo'=>$no,'status'=>$values['status'],'invoiceRequested'=>$invoice];
     });return $o;

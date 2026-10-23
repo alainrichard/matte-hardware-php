@@ -15,8 +15,9 @@ try{
  try{
   $category=insert('categories',['name'=>'FX fixture','slug'=>'fx-'.uuid()]);
   $product=insert('products',['name'=>'FX fixture','slug'=>'fx-'.uuid(),'category_id'=>$category,'price_rwf'=>147562,'price_confirmed'=>1,'stock_quantity'=>2]);
-  $created=createOrder(['customer'=>['name'=>'FX test','phone'=>'0788000000'],'currency'=>'USD','invoiceRequested'=>false,'items'=>[['productId'=>$product,'qty'=>1]]]);
+  $created=createOrder(['acceptedTerms'=>true,'customer'=>['name'=>'FX test','phone'=>'0788000000'],'currency'=>'USD','invoiceRequested'=>false,'items'=>[['productId'=>$product,'qty'=>1]]]);
   $order=orderByToken($created['token']);fxAssert((float)$order['usd_rwf_rate']===1475.62);fxAssert(mapOrder($order)['totalAmount']===100.0);
+  $terms=one('SELECT * FROM order_terms WHERE order_id=?',[$order['id']]);fxAssert($terms['version']===ORDER_TERMS_VERSION&&$terms['terms_text']===ORDER_TERMS_TEXT&&!empty($terms['accepted_at']));
   file_put_contents($path,json_encode(array_replace($parsed,['usdRwfRate'=>1500])+['checkedAt'=>time(),'fetchedAt'=>time()]));
   fxAssert(exchangeRate()['usdRwfRate']===1500.0);fxAssert(mapOrder(orderByToken($created['token']))['totalAmount']===100.0);
  }finally{db()->rollBack();}
