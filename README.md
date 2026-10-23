@@ -1,6 +1,6 @@
 # MATTE Hardware — PHP / XAMPP
 
-MATTE storefront and administration built with PHP 8.2+, HTML, CSS, vanilla JavaScript and MariaDB. The application runs without React, Next.js, Node.js or Docker. Node.js is optional for development tests and importing the previous PostgreSQL system.
+MATTE storefront and administration built with PHP 8.2+, HTML, CSS, vanilla JavaScript and MariaDB. 
 
 ## Features
 
