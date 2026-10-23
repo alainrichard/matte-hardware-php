@@ -138,6 +138,12 @@ The test configuration rejects database names that do not end in `_test`. Clear 
 
 ## Security and stock maintenance
 
+### RWF / USD exchange rates
+
+Checkout and new orders use Frankfurter's `https://api.frankfurter.dev/v2/rates?base=USD&quotes=RWF` daily reference rate. RWF amounts are divided by the returned RWF-per-USD rate to display USD. Checkout shows the source and rate date. Each order stores its rate permanently, so later updates do not alter existing invoices or PDFs; payments remain in RWF.
+
+The PHP server checks at most hourly, validates the response and caches it privately. If the provider is unavailable, it keeps the last successful rate for up to seven days, then uses the configured `business.usdRwfRate` fallback. Checkout labels fallback/stale data. `FRANKFURTER_ENABLED=false` selects the configured rate without network requests. No API key is needed. Run `php tests/exchange.php` against the isolated test database to verify conversion and fallback behavior.
+
 The application uses parameterized SQL, bcrypt passwords, role checks, rate limits, restrictive browser security headers, same-origin API checks, bounded request bodies and image decoding/re-encoding for uploads. Upload script extensions and sensitive backup/configuration files are blocked by both Apache and the development router. Private account/order pages and API responses are not cached. HTTPS responses enable HSTS; configure TLS before exposing the site publicly.
 
 Login tokens are tied to the account's current password hash. Changing/resetting the password invalidates previously issued tokens. Installing this security update also requires existing users to sign in again. Keep `JWT_SECRET` private and rotate it if compromised to invalidate all sessions. Order links are private bearer links: anyone with the link can view that order, so share them only with intended recipients.

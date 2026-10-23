@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__.'/catalog.php';
+require_once __DIR__.'/exchange.php';
 require_once __DIR__.'/accounts.php';
 require_once __DIR__.'/orders.php';
 require_once __DIR__.'/momo.php';
@@ -17,6 +18,7 @@ function api(string $path,string $method,array $b,string $raw): never {
     if(in_array($path,['/api/auth/login','/api/admin/login','/api/auth/customer/login','/api/admin/customer/login'],true)&&$method==='POST')json(login($b,str_ends_with($path,'/customer/login')));
     if(in_array($path,['/api/auth/customer/signup','/api/admin/customer/signup'],true)&&$method==='POST')json(signup($b),201);
     if($method==='GET'){
+        if($path==='/api/exchange-rate')json(exchangeRate());
         if($path==='/api/site-content')json(siteContent());
         if($path==='/api/settings'){$c=siteContent();json(['company'=>$c['business'],'paymentInstructions'=>$c['business']['paymentInstructions'],'requireConfirmedPrices'=>env('REQUIRE_CONFIRMED_PRICES','true')==='true']);}
         if($path==='/api/categories')json(categories());

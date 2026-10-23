@@ -25,7 +25,7 @@ function createOrder(array $b): array {
     foreach($b['items'] as $it){$id=num($it['productId']??0);$qty=num($it['qty']??0);if($id<1||$qty<1||$qty>999)fail('Some cart items are invalid.');$wanted[$id]=($wanted[$id]??0)+$qty;if($wanted[$id]>999)fail('Maximum quantity per product is 999.');}ksort($wanted);
     $requestId=$b['requestId']??null;if($requestId!==null&&!isUuid($requestId))fail('Invalid checkout request. Refresh and try again.');
     $payload=$b;unset($payload['requestId']);$payloadHash=hash('sha256',json_encode([$user['sub']??null,$payload],JSON_THROW_ON_ERROR));
-    $site=siteContent();$rate=(float)$site['business']['usdRwfRate'];$token=b64(random_bytes(18));
+    $rate=exchangeRate()['usdRwfRate'];$token=b64(random_bytes(18));
     $o=tx(function()use($b,$user,$name,$phone,$email,$invoice,$isTin,$tin,$company,$purchase,$notify,$method,$address,$pin,$pay,$wanted,$rate,$token,$requestId,$payloadHash){
         if($requestId){sql('INSERT INTO checkout_requests(request_id,payload_hash) VALUES(?,?) ON DUPLICATE KEY UPDATE request_id=request_id',[$requestId,$payloadHash]);$request=one('SELECT * FROM checkout_requests WHERE request_id=? FOR UPDATE',[$requestId]);if(!hash_equals($request['payload_hash'],$payloadHash))fail('This checkout request was already used with different details. Refresh your checkout.',409);if($request['order_id']){$prior=one('SELECT * FROM orders WHERE id=?',[$request['order_id']]);return ['token'=>$prior['public_token'],'proformaNo'=>$prior['proforma_no'],'status'=>$prior['status'],'invoiceRequested'=>(bool)$prior['invoice_requested']];}}
         $visible=visibleIds(rows('SELECT * FROM categories'));
