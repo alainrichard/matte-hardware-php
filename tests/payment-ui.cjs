@@ -8,7 +8,7 @@ const env=require('./config.cjs');
   async function render(order){await page.evaluate(async o=>{const {paymentPanel}=await import('/assets/payments.js');document.querySelector('main').innerHTML=paymentPanel(o);},order);}
   for(const method of ['mtn','airtel','bank','card']){
    await render({...fixture,payment:{...fixture.payment,method}});
-   await expect(page.locator('.payment-notice')).toContainText('not configured');
+   await expect(page.locator('.payment-notice')).toContainText(/Contact MATTE|contact MATTE/);
    await expect(page.locator('.payment-choices input')).toHaveCount(4);
    for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:900});if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('Payment overflow '+method+' '+width);}
   }
@@ -18,6 +18,7 @@ const env=require('./config.cjs');
   await render({...fixture,payment:{...fixture.payment,method:'card'},paymentOptions:{cardPaymentUrl:'javascript:alert(1)'}});await expect(page.locator('.payment-instructions a')).toHaveCount(0);
   await render({...fixture,payment:{...fixture.payment,method:'card'},paymentOptions:{cardPaymentUrl:'https://example.test/pay'}});await expect(page.locator('.payment-instructions a')).toHaveAttribute('rel','noopener noreferrer');
   await render({...fixture,payment:{...fixture.payment,method:'bank'},paymentOptions:{bankName:'Test Bank',bankAccountName:'MATTE',bankAccountNumber:'12345'}});await expect(page.locator('[data-copy-payment]')).toHaveCount(1);
+  await page.screenshot({path:require('node:path').join(__dirname,'../storage/browser/payment-redesign-desktop.png'),fullPage:true});await page.setViewportSize({width:390,height:844});await page.screenshot({path:require('node:path').join(__dirname,'../storage/browser/payment-redesign-mobile.png'),fullPage:true});
   console.log('PASS: four payment methods, 16 responsive layouts, verification states, configured instructions and secure payment links.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1);});
