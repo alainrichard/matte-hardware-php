@@ -1,11 +1,12 @@
 Options -Indexes -MultiViews
 Require all granted
 RewriteEngine On
+RewriteRule ^uploads/.*\.(php[0-9]?|phtml|phar|cgi|pl|py|sh|shtml)(/|$) - [F,L,NC]
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteRule (^|/)\. - [F,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
-<FilesMatch "\.(env|sql|log)$">
+<FilesMatch "(?i)(\.(env|sql|log|bak|ini|conf|old|swp)$|^\.)">
 Require all denied
 </FilesMatch>

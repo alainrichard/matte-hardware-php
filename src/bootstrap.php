@@ -47,16 +47,28 @@ function uuid(): string { $b=random_bytes(16);$b[6]=chr((ord($b[6])&15)|64);$b[8
 function isUuid(mixed $s): bool {return is_string($s)&&preg_match('/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i',$s)===1;}
 function b64(string $s): string {return rtrim(strtr(base64_encode($s),'+/','-_'),'=');}
 function jwtSecret(): string {$s=env('JWT_SECRET');if(strlen($s)<32)fail('Configure JWT_SECRET with at least 32 characters.',503);return $s;}
-function tokenFor(array $u,string $role): array { $user=['id'=>(int)$u['id'],'email'=>$u['email'],'name'=>$u['name'],'role'=>$role]; $h=b64('{"alg":"HS256","typ":"JWT"}');$p=b64(json_encode(['sub'=>$user['id'],'email'=>$user['email'],'name'=>$user['name'],'role'=>$role,'iat'=>time(),'exp'=>time()+($role==='admin'?43200:2592000)]));return ['token'=>$h.'.'.$p.'.'.b64(hash_hmac('sha256',$h.'.'.$p,jwtSecret(),true)),'user'=>$user]; }
+function credentialVersion(string $hash): string {return hash_hmac('sha256',$hash,jwtSecret());}
+function tokenFor(array $u,string $role): array {
+    $table=$role==='admin'?'admin_users':'customer_users';
+    $record=one("SELECT password_hash FROM $table WHERE id=?",[$u['id']]);if(!$record)fail('Please sign in again.',401);
+    $user=['id'=>(int)$u['id'],'email'=>$u['email'],'name'=>$u['name'],'role'=>$role];
+    $h=b64('{"alg":"HS256","typ":"JWT"}');
+    $p=b64(json_encode(['sub'=>$user['id'],'email'=>$user['email'],'name'=>$user['name'],'role'=>$role,'iat'=>time(),'exp'=>time()+($role==='admin'?43200:2592000),'credentialVersion'=>credentialVersion($record['password_hash'])]));
+    return ['token'=>$h.'.'.$p.'.'.b64(hash_hmac('sha256',$h.'.'.$p,jwtSecret(),true)),'user'=>$user];
+}
 function auth(?string $role=null,bool $optional=false): ?array {
     $h=$_SERVER['HTTP_AUTHORIZATION']??$_SERVER['REDIRECT_HTTP_AUTHORIZATION']??'';
     if(!$h&&function_exists('getallheaders'))foreach(getallheaders() as $key=>$value)if(strcasecmp($key,'Authorization')===0){$h=$value;break;}
     if(!$h&&$optional)return null;
+    if(strlen($h)>8192)fail('Please sign in again.',401);
     $parts=explode('.',str_starts_with($h,'Bearer ')?substr($h,7):'');
     if(count($parts)!==3)fail('Please sign in again.',401);
-    [$a,$b,$c]=$parts;$head=json_decode(base64_decode(strtr($a,'-_','+/')),true);$p=json_decode(base64_decode(strtr($b,'-_','+/')),true);
-    if(($head['alg']??'')!=='HS256'||!hash_equals(b64(hash_hmac('sha256',$a.'.'.$b,jwtSecret(),true)),$c)||!is_int($p['sub']??null)||$p['sub']<1||($p['exp']??0)<=time()||!in_array($p['role']??'',['admin','customer'],true)||($role&&$p['role']!==$role))fail('Please sign in again.',401);
-    $table=$p['role']==='admin'?'admin_users':'customer_users';if(!one("SELECT id FROM $table WHERE id=?",[$p['sub']]))fail('Please sign in again.',401);return $p;
+    [$a,$b,$c]=$parts;
+    $head=json_decode(base64_decode(strtr($a,'-_','+/'),true)?:'',true);$p=json_decode(base64_decode(strtr($b,'-_','+/'),true)?:'',true);
+    if(!is_array($head)||!is_array($p)||($head['alg']??'')!=='HS256'||!hash_equals(b64(hash_hmac('sha256',$a.'.'.$b,jwtSecret(),true)),$c)||!is_int($p['sub']??null)||$p['sub']<1||!is_int($p['exp']??null)||$p['exp']<=time()||!is_int($p['iat']??null)||$p['iat']>time()+60||!in_array($p['role']??'',['admin','customer'],true)||($role&&$p['role']!==$role))fail('Please sign in again.',401);
+    $table=$p['role']==='admin'?'admin_users':'customer_users';$record=one("SELECT password_hash FROM $table WHERE id=?",[$p['sub']]);
+    if(!$record||!is_string($p['credentialVersion']??null)||!hash_equals(credentialVersion($record['password_hash']),$p['credentialVersion']))fail('Please sign in again.',401);
+    return $p;
 }
 function rate(string $key,int $limit=30,int $seconds=600): void {
     $key=hash('sha256',$key.'|'.($_SERVER['REMOTE_ADDR']??'cli').'|'.intdiv(time(),$seconds));

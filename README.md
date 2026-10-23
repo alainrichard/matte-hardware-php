@@ -136,6 +136,18 @@ For concurrency checks, start a second PHP server on `127.0.0.1:8190` using the 
 
 The test configuration rejects database names that do not end in `_test`. Clear `MATTE_ENV_FILE` after testing before running commands against another database. `tests/migrated.cjs` and `tests/apache-concurrency.cjs` are local acceptance checks requiring private configured credentials; migrated checks also require the private source snapshot. They do not modify business records. `tests/payment.php` runs payment/webhook scenarios inside rolled-back transactions without external requests.
 
+## Security and stock maintenance
+
+The application uses parameterized SQL, bcrypt passwords, role checks, rate limits, restrictive browser security headers, same-origin API checks, bounded request bodies and image decoding/re-encoding for uploads. Upload script extensions and sensitive backup/configuration files are blocked by both Apache and the development router. Private account/order pages and API responses are not cached. HTTPS responses enable HSTS; configure TLS before exposing the site publicly.
+
+Login tokens are tied to the account's current password hash. Changing/resetting the password invalidates previously issued tokens. Installing this security update also requires existing users to sign in again. Keep `JWT_SECRET` private and rotate it if compromised to invalidate all sessions. Order links are private bearer links: anyone with the link can view that order, so share them only with intended recipients.
+
+For production, serve only `public/`, keep PHP/MariaDB/Apache and dependencies updated, disable public XAMPP/phpMyAdmin access, and restrict database/network access. Use a dedicated database account with only runtime permissions on the shop database; run schema migrations separately with an administrative account. Keep `.env`, database backups and uploads backed up privately. Do not expose PHP's development server to the internet. These protections reduce risk; they do not guarantee complete security.
+
+Run `php tests/security.php` with `MATTE_ENV_FILE` pointing to an isolated `_test` database. Run `node tests/security-http.cjs` with `MATTE_TEST_ENV` for HTTP checks against the test server and local XAMPP. Check dependency advisories with `composer audit --locked` and `npm audit`.
+
+To intentionally increase every product's stock, run `php scripts/add-stock.php 10`. This adds ten to each existing quantity, verifies the result in a transaction and saves a private before-state backup in `storage/`. It does not change product visibility or confirmed prices. **Each invocation adds stock again**; never put this command in deployment or startup scripts. Stock/database changes are local data, not included in GitHub.
+
 ## Repository contents and private files
 
 - `public/`: browser entry point, styles, JavaScript, flags and branding.
