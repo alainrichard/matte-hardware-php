@@ -8,7 +8,8 @@
     "test:departments": "node tests/departments.cjs",
     "test:api": "node tests/api.cjs",
     "test:browser": "node tests/browser.cjs",
-    "test:checkout": "node tests/checkout.cjs"
+    "test:checkout": "node tests/checkout.cjs",
+    "test:e2e": "node tests/checkout.cjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0",

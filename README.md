@@ -131,10 +131,13 @@ $env:MATTE_TEST_ENV=(Resolve-Path storage/test.env).Path
 npm run test:api
 npm run test:browser
 npm run test:checkout
+npm run test:e2e
 node tests/payment-ui.cjs
 ```
 
 For concurrency checks, start a second PHP server on `127.0.0.1:8190` using the same test environment, then run `node tests/concurrency.cjs`.
+
+`test:e2e` runs the complete browser journey in the isolated database: guest cart, signup and cart merge, mandatory terms, transporter delivery, USD/TIN checkout, manual reference submission, staff payment verification, preparation and delivery, automatic customer status updates, account history and PDF download. It checks that fulfilment preserves the saved exchange rate and totals. Browser errors fail the test; private screenshots/results are saved under `storage/browser`. Live provider charges and outbound email/WhatsApp require separately configured credentials and are not exercised by this test. Repeated runs can hit the normal login rate limit; allow the limit window to expire before repeating the suite.
 
 The test configuration rejects database names that do not end in `_test`. Clear `MATTE_ENV_FILE` after testing before running commands against another database. `tests/migrated.cjs` and `tests/apache-concurrency.cjs` are local acceptance checks requiring private configured credentials; migrated checks also require the private source snapshot. They do not modify business records. `tests/payment.php` runs payment/webhook scenarios inside rolled-back transactions without external requests.
 
