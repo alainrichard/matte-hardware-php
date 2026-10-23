@@ -1,0 +1,38 @@
+.refined-footer { background: #141719; color: #f8f5f0; border-top: 4px solid var(--red); margin-top: 64px; }
+.refined-footer .wrap { max-width: 1480px; }
+.footer-invitation { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding-top: 40px; padding-bottom: 36px; border-bottom: 1px solid #ffffff20; }
+.footer-kicker { display: block; color: #d8b6b0; letter-spacing: .14em; font-size: .68rem; font-weight: 700; margin-bottom: 12px; }
+.footer-invitation h2 { color: #fff; font-size: clamp(1.3rem, 2.1vw, 1.9rem); line-height: 1.25; margin: 0 0 10px; max-width: 32ch; }
+.footer-invitation p { color: #b9bfc2; font-size: .88rem; margin: 0; line-height: 1.6; max-width: 65ch; }
+.refined-footer .footer-project-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 30px; flex-shrink: 0; padding: 15px 22px; border-radius: 8px; background: #faf7f2; color: #191b1d; font-size: .88rem; font-weight: 700; }
+.refined-footer .footer-project-link:hover { background: #fff; text-decoration: none; }
+.refined-footer .foot-grid { grid-template-columns: 1.25fr 1.2fr 1fr 1.1fr; gap: 44px; padding-top: 44px; padding-bottom: 44px; }
+.refined-footer .foot-grid > section { min-width: 0; }
+.refined-footer .foot-brand img { width: 156px; height: 44px; object-fit: contain; object-position: left; }
+.refined-footer .foot-note { margin: 18px 0 12px; color: #b9bfc2; font-size: .88rem; line-height: 1.7; }
+.footer-reach { color: #e3e5e6; font-size: .82rem; line-height: 1.6; margin-bottom: 20px; }
+.refined-footer h3 { font-size: .85rem; margin-bottom: 22px; }
+.refined-footer ul { gap: 12px; }
+.refined-footer li, .refined-footer .foot-link { font-size: .82rem; line-height: 1.5; }
+.refined-footer a { color: #c2c7ca; text-underline-offset: 4px; }
+.refined-footer a:hover { color: #fff; }
+.refined-footer a:focus-visible { outline: 2px solid #fff; outline-offset: 5px; border-radius: 3px; }
+.footer-shop-all { margin-top: 18px; }
+.footer-contact-item { display: flex; flex-direction: column; gap: 6px; margin-bottom: 20px; font-size: .85rem; }
+.footer-contact-item > span { color: #969fa4; font-size: .63rem; letter-spacing: .1em; font-weight: 700; }
+.footer-contact-item a { overflow-wrap: anywhere; }
+.footer-contact-item p { margin: 0; color: #c2c7ca; line-height: 1.6; }
+.refined-footer .foot-bottom { border-color: #ffffff20; background: #101315; }
+.refined-footer .foot-base { padding-top: 20px; padding-bottom: 20px; color: #9ba4a9; font-size: .75rem; }
+.footer-bottom-links { display: flex; gap: 24px; flex-wrap: wrap; }
+@media (max-width: 980px) { .refined-footer .foot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; } .refined-footer .foot-brand { grid-column: auto; } }
+@media (max-width: 640px) { .footer-invitation { align-items: flex-start; flex-direction: column; gap: 22px; padding-top: 30px; padding-bottom: 28px; } .refined-footer .foot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 22px; padding-top: 32px; padding-bottom: 32px; } .refined-footer .foot-brand, .refined-footer .footer-contact { grid-column: 1 / -1; } .refined-footer .foot-base { align-items: flex-start; gap: 14px; } }
+
+.header-preferences .theme-toggle button { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; padding: 0; }
+.language-flags { display: flex; align-items: center; gap: 4px; border-left: 1px solid var(--line); padding-left: 10px; }
+.language-flags button { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 30px; border: 1px solid transparent; border-radius: 6px; background: transparent; padding: 4px; cursor: pointer; }
+.language-flags button.on { border-color: var(--red); background: var(--accent-glow); }
+.language-flags button:hover { background: var(--surface); }
+.language-flags img { display: block; width: 24px; height: 16px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px #00000015; }
+.language-flags button:focus-visible, .header-preferences .theme-toggle button:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+@media (max-width: 390px) { .header-preferences .theme-toggle button { width: 26px; height: 28px; } .language-flags { gap: 2px; padding-left: 5px; } .language-flags button { width: 29px; } }

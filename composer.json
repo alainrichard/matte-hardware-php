@@ -1,0 +1,16 @@
+{
+  "name": "matte/store",
+  "description": "MATTE PHP storefront and administration",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-mbstring": "*",
+    "ext-gd": "*",
+    "ext-curl": "*",
+    "ext-fileinfo": "*",
+    "dompdf/dompdf": "^3.1",
+    "phpmailer/phpmailer": "^6.10 || ^7.0"
+  }
+}

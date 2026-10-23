@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+*.env
+vendor/
+node_modules/
+storage/*
+!storage/.gitkeep
+public/uploads/
+*.log
+*.sql.gz
+*.dump
+.DS_Store
+Thumbs.db
+# Helpers used only for the original workstation migration.
+scripts/setup-local.cjs
+scripts/activate-migrated.cjs
+tests/render-pdf.mjs
+xampp/httpd-matte.conf

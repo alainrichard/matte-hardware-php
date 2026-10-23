@@ -1,0 +1,336 @@
+[
+  {
+    "slug": "sanitaryware",
+    "name": "Sanitaryware",
+    "children": [
+      {
+        "slug": "bathroom-accessories",
+        "name": "Bathroom Accessories",
+        "children": [
+          {
+            "slug": "hoses",
+            "name": "Hoses"
+          },
+          {
+            "slug": "bathroom-mixers",
+            "name": "Bathroom Mixers"
+          },
+          {
+            "slug": "sensor-taps",
+            "name": "Sensor Taps"
+          },
+          {
+            "slug": "bathroom-showers",
+            "name": "Bathroom Showers"
+          },
+          {
+            "slug": "soap-accessories",
+            "name": "Soap Accessories"
+          },
+          {
+            "slug": "bathroom-storage",
+            "name": "Bathroom Storage"
+          },
+          {
+            "slug": "tissue-towel-holders",
+            "name": "Tissue & Towel Holders"
+          },
+          {
+            "slug": "trays-tumblers-holders",
+            "name": "Trays, Tumblers & Holders"
+          },
+          {
+            "slug": "waste-traps-drains",
+            "name": "Waste, Traps & Drains"
+          }
+        ]
+      },
+      {
+        "slug": "wellness",
+        "name": "Wellness",
+        "children": [
+          {
+            "slug": "bathtubs",
+            "name": "Bathtubs & Jacuzzi"
+          },
+          {
+            "slug": "shattaf",
+            "name": "Shattaf"
+          }
+        ]
+      },
+      {
+        "slug": "shower-fittings",
+        "name": "Showers",
+        "children": [
+          {
+            "slug": "hand-showers",
+            "name": "Hand Showers"
+          },
+          {
+            "slug": "overhead-showers",
+            "name": "Overhead Showers"
+          },
+          {
+            "slug": "rain-showers",
+            "name": "Rain Showers"
+          },
+          {
+            "slug": "shower-columns",
+            "name": "Shower Columns"
+          },
+          {
+            "slug": "shower-kits",
+            "name": "Shower Kits"
+          },
+          {
+            "slug": "shower-panels",
+            "name": "Shower Panels"
+          },
+          {
+            "slug": "showers",
+            "name": "Shower Enclosures & Trays"
+          }
+        ]
+      },
+      {
+        "slug": "mixers-taps",
+        "name": "Mixers & Taps",
+        "children": [
+          {
+            "slug": "basin-mixers",
+            "name": "Basin Mixers"
+          },
+          {
+            "slug": "bath-mixers",
+            "name": "Bath Mixers"
+          },
+          {
+            "slug": "sink-mixers",
+            "name": "Sink Mixers"
+          },
+          {
+            "slug": "whb-single-taps",
+            "name": "WHB Single Taps"
+          },
+          {
+            "slug": "single-sink-taps",
+            "name": "Single Sink Taps"
+          },
+          {
+            "slug": "single-bath-taps",
+            "name": "Single Bath Taps"
+          }
+        ]
+      },
+      {
+        "slug": "vanities-mirrors",
+        "name": "Vanities & Mirrors",
+        "children": [
+          {
+            "slug": "vanities",
+            "name": "Vanities"
+          },
+          {
+            "slug": "led-mirrors",
+            "name": "LED Mirrors"
+          },
+          {
+            "slug": "mirrors",
+            "name": "Mirrors"
+          }
+        ]
+      },
+      {
+        "slug": "wash-basins",
+        "name": "Wash Basins",
+        "children": [
+          {
+            "slug": "counter-basins",
+            "name": "Counter Basins"
+          },
+          {
+            "slug": "pedestal-basins",
+            "name": "Pedestal Basins"
+          },
+          {
+            "slug": "wall-hung-basins",
+            "name": "Wall Hung Basins"
+          },
+          {
+            "slug": "corner-basins",
+            "name": "Corner Basins"
+          }
+        ]
+      },
+      {
+        "slug": "wc-bidet",
+        "name": "WC & Bidet",
+        "children": [
+          {
+            "slug": "toilets",
+            "name": "Toilets & WC"
+          },
+          {
+            "slug": "bidets",
+            "name": "Bidets"
+          },
+          {
+            "slug": "urinals",
+            "name": "Urinals & Partitions"
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-sinks",
+        "name": "Kitchen Sinks"
+      },
+      {
+        "slug": "drains",
+        "name": "Floor Drains & Channels"
+      }
+    ]
+  },
+  {
+    "slug": "electrical",
+    "name": "Electrical",
+    "children": [
+      {
+        "slug": "electrical-accessories",
+        "name": "Accessories"
+      },
+      {
+        "slug": "fans",
+        "name": "Fans"
+      },
+      {
+        "slug": "lighting",
+        "name": "Lighting"
+      },
+      {
+        "slug": "wiring-accessories",
+        "name": "Wiring Accessories"
+      }
+    ]
+  },
+  {
+    "slug": "hardware",
+    "name": "Hardware",
+    "children": [
+      {
+        "slug": "building-materials",
+        "name": "Building Materials"
+      },
+      {
+        "slug": "cat-power-tools",
+        "name": "CAT Power Tools"
+      },
+      {
+        "slug": "door-handles",
+        "name": "Door Handles"
+      },
+      {
+        "slug": "door-locks",
+        "name": "Door Locks"
+      },
+      {
+        "slug": "furniture-fittings",
+        "name": "Furniture Fittings"
+      },
+      {
+        "slug": "interior-finishing-tools",
+        "name": "Interior & Finishing Tools"
+      },
+      {
+        "slug": "kitchen-hoods",
+        "name": "Kitchen Hoods"
+      },
+      {
+        "slug": "measuring-tools",
+        "name": "Measuring Tools"
+      },
+      {
+        "slug": "pressure-washers",
+        "name": "Pressure Washers"
+      },
+      {
+        "slug": "professional-hand-tools",
+        "name": "Professional Hand Tools"
+      },
+      {
+        "slug": "safety-equipment",
+        "name": "Safety Equipment"
+      },
+      {
+        "slug": "sealant-foam",
+        "name": "Sealant & Foam"
+      },
+      {
+        "slug": "manhole-covers",
+        "name": "Manhole Covers"
+      }
+    ]
+  },
+  {
+    "slug": "tiles",
+    "name": "Tiles",
+    "children": [
+      {
+        "slug": "indoor-tiles",
+        "name": "Indoor Tiles"
+      },
+      {
+        "slug": "outdoor-tiles",
+        "name": "Outdoor Tiles"
+      }
+    ]
+  },
+  {
+    "slug": "water-purifier",
+    "name": "Water Purifier",
+    "children": [
+      {
+        "slug": "water-filters",
+        "name": "Water Filters"
+      }
+    ]
+  },
+  {
+    "slug": "water-heaters",
+    "name": "Water Heater",
+    "children": [
+      {
+        "slug": "electric-water-heaters",
+        "name": "Electric Water Heaters"
+      },
+      {
+        "slug": "instant-water-heaters",
+        "name": "Instant Water Heaters"
+      }
+    ]
+  },
+  {
+    "slug": "machines-pumps",
+    "name": "Machines & Pumps",
+    "children": [
+      {
+        "slug": "water-pumps",
+        "name": "Water Pumps & Controllers"
+      },
+      {
+        "slug": "machines",
+        "name": "Machines"
+      }
+    ]
+  },
+  {
+    "slug": "plumbing",
+    "name": "Plumbing",
+    "children": [
+      {
+        "slug": "plumbing-accessories",
+        "name": "Plumbing Accessories"
+      }
+    ]
+  }
+]

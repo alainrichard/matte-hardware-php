@@ -1,0 +1,410 @@
+{
+  "navigation": {
+    "aboutLabel": "About Us",
+    "allProducts": "All products",
+    "contact": "Contact",
+    "chat": "Chat with us",
+    "cart": "Cart",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "account": "My account",
+    "signOut": "Sign out",
+    "phoneLabel": "Call us",
+    "phone": "0788 553 011",
+    "topLinkOne": "About MATTE",
+    "topLinkTwo": "Product catalogue",
+    "topLinkThree": "Projects",
+    "topLinkFour": "Contact",
+    "groups": [
+      {
+        "title": "Bathroom Accessories",
+        "column": 0,
+        "items": [
+          "Hose",
+          "Mixer",
+          "Sensor",
+          "Shower",
+          "Soap",
+          "Storage",
+          "Tissue & Towel",
+          "Trays - Tumblers - Holders",
+          "Waste - Traps - Drains"
+        ]
+      },
+      {
+        "title": "Wellness",
+        "column": 0,
+        "items": [
+          "Bathtub",
+          "Shattaf"
+        ]
+      },
+      {
+        "title": "Plumbing Accessories",
+        "column": 0,
+        "items": []
+      },
+      {
+        "title": "Showers",
+        "column": 1,
+        "items": [
+          "Hand Shower",
+          "Over-head Shower",
+          "Rain Showers",
+          "Shower Column",
+          "Shower Kit",
+          "Shower Panel"
+        ]
+      },
+      {
+        "title": "Water Purifier",
+        "column": 1,
+        "items": [
+          "Water Filter"
+        ]
+      },
+      {
+        "title": "Water Pump",
+        "column": 1,
+        "items": []
+      },
+      {
+        "title": "Mixers",
+        "column": 2,
+        "items": [
+          "Basin Mixer",
+          "Bath Mixer",
+          "Sink Mixer"
+        ]
+      },
+      {
+        "title": "Vanities & Mirror",
+        "column": 2,
+        "items": [
+          "LED Mirrors"
+        ]
+      },
+      {
+        "title": "WC & Bidet",
+        "column": 2,
+        "items": []
+      },
+      {
+        "title": "Wash Basin",
+        "column": 3,
+        "items": [
+          "Counter Basin",
+          "Pedestal Basin",
+          "Wall Hung Basin"
+        ]
+      },
+      {
+        "title": "Kitchen Sink",
+        "column": 3,
+        "items": []
+      }
+    ]
+  },
+  "branding": {
+    "logoUrl": "/brand/logo.png",
+    "lightLogoUrl": "/brand/logo-light.png",
+    "accentColor": "#9a0e0e",
+    "accentDarkColor": "#7a0b0b"
+  },
+  "home": {
+    "heroEyebrow": "MATTE LTD · KIGALI",
+    "heroTitle": "Thoughtful materials for the spaces you live in.",
+    "heroDescription": "Explore finishes, fittings and water equipment chosen for everyday comfort and dependable performance.",
+    "searchPlaceholder": "What do you need? e.g. jet pump, corner bath",
+    "assuranceOne": "Curated for real projects",
+    "assuranceTwo": "Proforma optional",
+    "featureEyebrow": "Discover the collection",
+    "featureFallback": "Made for everyday living",
+    "exploreProducts": "Explore products",
+    "departmentsEyebrow": "Find your starting point",
+    "departmentsTitle": "Explore by department",
+    "allDepartments": "All departments",
+    "productsEyebrow": "Selected for you",
+    "productsTitle": "Popular at MATTE",
+    "browseProducts": "Browse all products",
+    "storyEyebrow": "Spaces that work beautifully",
+    "storyTitle": "Good design begins with materials that feel right.",
+    "storyBody": "From the daily shower to a complete renovation, find considered bathroom products and practical water solutions with clear specifications and local support from our Kigali team.",
+    "stepsTitle": "How ordering works",
+    "steps": [
+      {
+        "title": "Pick your items",
+        "description": "Browse the catalog and add what you need to your cart."
+      },
+      {
+        "title": "Review your order",
+        "description": "At checkout, request a proforma invoice or submit your order without one."
+      },
+      {
+        "title": "Confirm the next steps",
+        "description": "Our team will confirm payment or contact you about your order before preparing it."
+      }
+    ],
+    "ctaTitle": "Not sure which size or model?",
+    "ctaBody": "Chat with our team on WhatsApp for product advice and order help.",
+    "ctaButton": "Start a chat"
+  },
+  "about": {
+    "navLabel": "About Us",
+    "title": "About MATTE",
+    "intro": "Quality bathroom, plumbing and water equipment for homes, businesses and projects across Rwanda.",
+    "storyTitle": "Our story",
+    "storyBody": "MATTE helps customers choose dependable products for bathrooms, plumbing and water systems. Our Kigali team brings practical product knowledge and local support to every project.",
+    "missionTitle": "Our mission",
+    "missionBody": "Make it easier to build and improve comfortable, reliable spaces with considered products and clear service.",
+    "valuesTitle": "How we work",
+    "valuesBody": "We listen to the needs of each project, explain product options clearly, and support customers from selection through delivery or collection."
+  },
+  "business": {
+    "name": "MATTE LTD",
+    "place": "Kigali, Rwanda",
+    "tin": "150436367",
+    "tel": "0788 553 011",
+    "email": "matteltd.rwa@gmail.com",
+    "purchaseCodeUrl": "https://myrra.rra.gov.rw/main/service/indexPurchaseInitiation",
+    "paymentInstructions": "Review your order or proforma before paying. After payment, submit the transaction reference here. MATTE staff will verify it and update your order.",
+    "whatsappNumber": "250788553011",
+    "mtnPayNumber": "",
+    "airtelPayNumber": "",
+    "cardPaymentUrl": "",
+    "mtnUssdCode": "",
+    "airtelUssdCode": "",
+    "airtelPaymentUrl": "",
+    "bankName": "",
+    "bankAccountName": "",
+    "bankAccountNumber": "",
+    "bankSwift": "",
+    "bankInstructions": "",
+    "usdRwfRate": 1400
+  },
+  "catalog": {
+    "allProducts": "All products",
+    "category": "Category",
+    "sort": "Sort by",
+    "featured": "Featured",
+    "priceLow": "Price: low to high",
+    "priceHigh": "Price: high to low",
+    "name": "Name",
+    "projectTitle": "Buying for a project?",
+    "projectBody": "Send your requirements and receive a tailored quotation.",
+    "quoteButton": "Request a quote",
+    "noResults": "No products match that search.",
+    "seeAll": "See all products",
+    "clearFilters": "Clear filters",
+    "resultLabel": "Products",
+    "filterBy": "Filter by",
+    "removeFilter": "Remove"
+  },
+  "product": {
+    "allProducts": "All products",
+    "askPrice": "Ask for price",
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "quote": "Request a quote for this item",
+    "payTitle": "Pay directly or request a proforma.",
+    "payBody": "Pay after checking your order. Request a proforma at checkout only if you need one.",
+    "details": "Product details",
+    "about": "About this product",
+    "glance": "At a glance",
+    "specifications": "Specifications",
+    "moreIn": "More in",
+    "availableToOrder": "Available to order online",
+    "quoteAvailable": "Quote available",
+    "noPhoto": "No photo",
+    "askUs": "Ask us",
+    "added": "Added",
+    "add": "Add",
+    "addToCart": "Add to cart",
+    "addedToCart": "Added to your cart.",
+    "viewCart": "View cart",
+    "askQuestion": "Ask a question about this product",
+    "outOfStockBody": "This item is currently out of stock. Request a restock or contact us to ask about future availability.",
+    "askRestock": "Request a restock",
+    "unconfirmedPrice": "We haven't confirmed a price for this item online yet — it's still available to order.",
+    "askPriceOrder": "Ask for price & order",
+    "priceUnit": "per"
+  },
+  "location": {
+    "optional": "Optional: share your current location with MATTE staff to help with delivery. Use this when you are at the delivery address.",
+    "unavailable": "Location is unavailable. You can still enter your delivery address.",
+    "failed": "Could not get your location. Allow location access or enter your address instead.",
+    "invalid": "Enter a valid latitude and longitude.",
+    "finding": "Finding location…",
+    "useCurrent": "Use my current location",
+    "viewPin": "View shared pin",
+    "removePin": "Remove pin",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "setPin": "Set location pin",
+    "selected": "Location selected:"
+  },
+  "checkout": {
+    "title": "Your details",
+    "intro": "We will issue your proforma invoice as soon as you submit. You pay only after you have reviewed it.",
+    "invoiceDetails": "Invoice details",
+    "tinOption": "TIN number",
+    "phoneOption": "Phone number",
+    "contactName": "Contact name",
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "email": "Email (optional)",
+    "company": "Company name",
+    "tin": "TIN number (9 digits)",
+    "purchaseCode": "RRA purchase code",
+    "purchaseLink": "Get purchase code from RRA",
+    "receive": "How will you receive your order?",
+    "pickup": "Pick up at the store",
+    "delivery": "Delivery",
+    "address": "Delivery address",
+    "addressPlaceholder": "Sector, street, landmark",
+    "note": "Note for our team (optional)",
+    "notePlaceholder": "Sizes, colours, when you need it…",
+    "order": "Order",
+    "total": "Total",
+    "submit": "Get my proforma",
+    "submitting": "Preparing your proforma…",
+    "backToCart": "Back to cart",
+    "empty": "Your cart is empty. Browse products to continue.",
+    "retry": "Your saved cart could not be loaded. Use Retry above or sign in again."
+  },
+  "cart": {
+    "title": "Your cart",
+    "emptyTitle": "Your cart is empty",
+    "emptyBody": "Add products from the shop to continue to checkout.",
+    "browse": "Browse products",
+    "summary": "Summary",
+    "items": "Items",
+    "total": "Total",
+    "next": "At checkout, choose whether you want a proforma invoice. Nothing is charged when you submit an order.",
+    "continue": "Continue to checkout",
+    "keepShopping": "Keep shopping",
+    "remove": "Remove",
+    "each": "each",
+    "loading": "Loading your cart…",
+    "retry": "Your saved cart could not be loaded. Use Retry above or sign in again."
+  },
+  "quote": {
+    "eyebrow": "MATTE SOURCING REQUEST",
+    "title": "Request a quotation",
+    "intro": "Tell us the material, size, quantity or product you need. Attach details in the notes and we will prepare a quote.",
+    "received": "Request received",
+    "receivedBody": "Thank you. MATTE will review your requirements and send you a quotation.",
+    "continue": "Continue browsing",
+    "selected": "Selected product:",
+    "name": "Your name",
+    "phone": "Phone / WhatsApp",
+    "email": "Email (optional)",
+    "productId": "Product ID (optional)",
+    "quantity": "Quantity",
+    "requirement": "What do you need?",
+    "placeholder": "Example: 30 metres of 25 mm PVC pipe with elbows and valves.",
+    "submit": "Send request",
+    "sending": "Sending…"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "signingIn": "Signing in…",
+    "newCustomer": "New to MATTE?",
+    "createAccount": "Create an account",
+    "signUp": "Create your customer account",
+    "name": "Your name",
+    "createPassword": "Password (at least 8 characters)",
+    "signingUp": "Creating account…",
+    "existingCustomer": "Already have an account?"
+  },
+  "account": {
+    "title": "My account",
+    "loading": "Loading your account…",
+    "browse": "Browse all products",
+    "cart": "My cart",
+    "invoices": "My orders and invoices",
+    "profile": "My profile",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Delivery address",
+    "addressPlaceholder": "Sector, street, landmark",
+    "save": "Save profile",
+    "saving": "Saving…",
+    "saved": "Profile saved.",
+    "invoiceIntro": "Orders placed while signed in, with invoices when requested.",
+    "none": "No orders yet.",
+    "shop": "Start shopping",
+    "viewInvoice": "View invoice",
+    "openPdf": "Open PDF"
+  },
+  "order": {
+    "loading": "Loading your order…",
+    "notFoundTitle": "Order not found",
+    "notFound": "We could not find this order. Check the link you were given.",
+    "proforma": "Proforma",
+    "ready": "is ready",
+    "cancelled": "was cancelled",
+    "intro": "This is not a payment request yet. Check the items and total below, then pay using the instructions on this page.",
+    "order": "Order",
+    "orderStatusIntro": "Thank you. We will keep this page up to date.",
+    "progress": "Order progress",
+    "status": {
+      "submitted": "Order submitted",
+      "proforma_issued": "Proforma issued",
+      "paid": "Paid",
+      "preparing": "Preparing",
+      "delivered": "Delivered"
+    },
+    "download": "Download PDF",
+    "print": "Print",
+    "share": "Share on WhatsApp",
+    "chat": "Chat about this order",
+    "chatPrompt": "Hello, I have a question about my order",
+    "paymentTitle": "How to pay.",
+    "businessTin": "TIN",
+    "businessPhone": "TEL",
+    "businessEmail": "E-mail",
+    "number": "NO.",
+    "date": "Date",
+    "invoiceTitle": "PROFORMA INVOICE",
+    "client": "Client Names",
+    "tin": "TIN",
+    "tel": "TEL",
+    "purchaseCode": "Purchase code",
+    "delivery": "Delivery",
+    "pickup": "Pick-up at store",
+    "itemNo": "No",
+    "description": "Description",
+    "quantity": "Quantity",
+    "unitPrice": "Unit Price",
+    "totalPrice": "Total Price",
+    "total": "TOTAL",
+    "stamp": "STAMP & SIGNATURE",
+    "notes": "Notes",
+    "thanks": "Thank you for your business",
+    "changedMind": "Changed your mind?",
+    "cancel": "Cancel this order",
+    "cancelConfirmAction": "Cancel this order?"
+  },
+  "footer": {
+    "tagline": "Bathroom, plumbing and water equipment.",
+    "aboutTitle": "About MATTE",
+    "aboutBody": "Quality bathroom, plumbing and water equipment for homes and projects across Rwanda.",
+    "aboutLink": "Our story",
+    "quickLinksTitle": "Quick links",
+    "shopAll": "Shop all products",
+    "quote": "Request a quote",
+    "contactTitle": "Contact us",
+    "address": "Kigali, Rwanda",
+    "phone1": "0788 553 011",
+    "phone2": "",
+    "email": "matteltd.rwa@gmail.com",
+    "connectTitle": "Stay in touch",
+    "connectBody": "Questions about a product or project? Our team is ready to help.",
+    "connectButton": "Email our team",
+    "copyright": "MATTE LTD. All rights reserved."
+  }
+}

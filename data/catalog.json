@@ -1,0 +1,1845 @@
+{
+  "categories": [
+    {
+      "slug": "sanitaryware",
+      "name": "Sanitaryware",
+      "blurb": "Explore sanitaryware. Contact us for available models and prices."
+    },
+    {
+      "slug": "bathroom-accessories",
+      "name": "Bathroom Accessories",
+      "blurb": "Explore bathroom accessories. Contact us for available models and prices."
+    },
+    {
+      "slug": "hoses",
+      "name": "Hoses",
+      "blurb": "Explore hoses. Contact us for available models and prices."
+    },
+    {
+      "slug": "bathroom-mixers",
+      "name": "Bathroom Mixers",
+      "blurb": "Explore bathroom mixers. Contact us for available models and prices."
+    },
+    {
+      "slug": "sensor-taps",
+      "name": "Sensor Taps",
+      "blurb": "Explore sensor taps. Contact us for available models and prices."
+    },
+    {
+      "slug": "bathroom-showers",
+      "name": "Bathroom Showers",
+      "blurb": "Explore bathroom showers. Contact us for available models and prices."
+    },
+    {
+      "slug": "soap-accessories",
+      "name": "Soap Accessories",
+      "blurb": "Explore soap accessories. Contact us for available models and prices."
+    },
+    {
+      "slug": "bathroom-storage",
+      "name": "Bathroom Storage",
+      "blurb": "Explore bathroom storage. Contact us for available models and prices."
+    },
+    {
+      "slug": "tissue-towel-holders",
+      "name": "Tissue & Towel Holders",
+      "blurb": "Explore tissue & towel holders. Contact us for available models and prices."
+    },
+    {
+      "slug": "trays-tumblers-holders",
+      "name": "Trays, Tumblers & Holders",
+      "blurb": "Explore trays, tumblers & holders. Contact us for available models and prices."
+    },
+    {
+      "slug": "waste-traps-drains",
+      "name": "Waste, Traps & Drains",
+      "blurb": "Explore waste, traps & drains. Contact us for available models and prices."
+    },
+    {
+      "slug": "wellness",
+      "name": "Wellness",
+      "blurb": "Explore wellness. Contact us for available models and prices."
+    },
+    {
+      "slug": "bathtubs",
+      "name": "Bathtubs & jacuzzi",
+      "blurb": "Freestanding, corner and whirlpool baths."
+    },
+    {
+      "slug": "shattaf",
+      "name": "Shattaf",
+      "blurb": "Explore shattaf. Contact us for available models and prices."
+    },
+    {
+      "slug": "shower-fittings",
+      "name": "Showers",
+      "blurb": "Explore showers. Contact us for available models and prices."
+    },
+    {
+      "slug": "hand-showers",
+      "name": "Hand Showers",
+      "blurb": "Explore hand showers. Contact us for available models and prices."
+    },
+    {
+      "slug": "overhead-showers",
+      "name": "Overhead Showers",
+      "blurb": "Explore overhead showers. Contact us for available models and prices."
+    },
+    {
+      "slug": "rain-showers",
+      "name": "Rain Showers",
+      "blurb": "Explore rain showers. Contact us for available models and prices."
+    },
+    {
+      "slug": "shower-columns",
+      "name": "Shower Columns",
+      "blurb": "Explore shower columns. Contact us for available models and prices."
+    },
+    {
+      "slug": "shower-kits",
+      "name": "Shower Kits",
+      "blurb": "Explore shower kits. Contact us for available models and prices."
+    },
+    {
+      "slug": "shower-panels",
+      "name": "Shower Panels",
+      "blurb": "Explore shower panels. Contact us for available models and prices."
+    },
+    {
+      "slug": "showers",
+      "name": "Shower enclosures & trays",
+      "blurb": "Glass shower cabins, sliding screens and shower trays."
+    },
+    {
+      "slug": "mixers-taps",
+      "name": "Mixers & Taps",
+      "blurb": "Explore mixers & taps. Contact us for available models and prices."
+    },
+    {
+      "slug": "basin-mixers",
+      "name": "Basin Mixers",
+      "blurb": "Explore basin mixers. Contact us for available models and prices."
+    },
+    {
+      "slug": "bath-mixers",
+      "name": "Bath Mixers",
+      "blurb": "Explore bath mixers. Contact us for available models and prices."
+    },
+    {
+      "slug": "sink-mixers",
+      "name": "Sink Mixers",
+      "blurb": "Explore sink mixers. Contact us for available models and prices."
+    },
+    {
+      "slug": "whb-single-taps",
+      "name": "WHB Single Taps",
+      "blurb": "Explore whb single taps. Contact us for available models and prices."
+    },
+    {
+      "slug": "single-sink-taps",
+      "name": "Single Sink Taps",
+      "blurb": "Explore single sink taps. Contact us for available models and prices."
+    },
+    {
+      "slug": "single-bath-taps",
+      "name": "Single Bath Taps",
+      "blurb": "Explore single bath taps. Contact us for available models and prices."
+    },
+    {
+      "slug": "vanities-mirrors",
+      "name": "Vanities & Mirrors",
+      "blurb": "Explore vanities & mirrors. Contact us for available models and prices."
+    },
+    {
+      "slug": "vanities",
+      "name": "Vanities",
+      "blurb": "Explore vanities. Contact us for available models and prices."
+    },
+    {
+      "slug": "led-mirrors",
+      "name": "LED Mirrors",
+      "blurb": "Explore led mirrors. Contact us for available models and prices."
+    },
+    {
+      "slug": "mirrors",
+      "name": "Mirrors",
+      "blurb": "Explore mirrors. Contact us for available models and prices."
+    },
+    {
+      "slug": "wash-basins",
+      "name": "Wash Basins",
+      "blurb": "Explore wash basins. Contact us for available models and prices."
+    },
+    {
+      "slug": "counter-basins",
+      "name": "Counter Basins",
+      "blurb": "Explore counter basins. Contact us for available models and prices."
+    },
+    {
+      "slug": "pedestal-basins",
+      "name": "Pedestal Basins",
+      "blurb": "Explore pedestal basins. Contact us for available models and prices."
+    },
+    {
+      "slug": "wall-hung-basins",
+      "name": "Wall Hung Basins",
+      "blurb": "Explore wall hung basins. Contact us for available models and prices."
+    },
+    {
+      "slug": "corner-basins",
+      "name": "Corner Basins",
+      "blurb": "Explore corner basins. Contact us for available models and prices."
+    },
+    {
+      "slug": "wc-bidet",
+      "name": "WC & Bidet",
+      "blurb": "Explore wc & bidet. Contact us for available models and prices."
+    },
+    {
+      "slug": "toilets",
+      "name": "Toilets & WC",
+      "blurb": "One-piece, wall-hung, squat and smart toilets."
+    },
+    {
+      "slug": "bidets",
+      "name": "Bidets",
+      "blurb": "Explore bidets. Contact us for available models and prices."
+    },
+    {
+      "slug": "urinals",
+      "name": "Urinals & partitions",
+      "blurb": "Wall-hung and stall urinals, sensor models and privacy dividers."
+    },
+    {
+      "slug": "kitchen-sinks",
+      "name": "Kitchen Sinks",
+      "blurb": "Explore kitchen sinks. Contact us for available models and prices."
+    },
+    {
+      "slug": "drains",
+      "name": "Floor drains & channels",
+      "blurb": "Linear shower channels, floor traps and outlet drains."
+    },
+    {
+      "slug": "electrical",
+      "name": "Electrical",
+      "blurb": "Explore electrical. Contact us for available models and prices."
+    },
+    {
+      "slug": "electrical-accessories",
+      "name": "Accessories",
+      "blurb": "Explore accessories. Contact us for available models and prices."
+    },
+    {
+      "slug": "fans",
+      "name": "Fans",
+      "blurb": "Explore fans. Contact us for available models and prices."
+    },
+    {
+      "slug": "lighting",
+      "name": "Lighting",
+      "blurb": "Explore lighting. Contact us for available models and prices."
+    },
+    {
+      "slug": "wiring-accessories",
+      "name": "Wiring Accessories",
+      "blurb": "Explore wiring accessories. Contact us for available models and prices."
+    },
+    {
+      "slug": "hardware",
+      "name": "Hardware",
+      "blurb": "Explore hardware. Contact us for available models and prices."
+    },
+    {
+      "slug": "building-materials",
+      "name": "Building Materials",
+      "blurb": "Explore building materials. Contact us for available models and prices."
+    },
+    {
+      "slug": "cat-power-tools",
+      "name": "CAT Power Tools",
+      "blurb": "Explore cat power tools. Contact us for available models and prices."
+    },
+    {
+      "slug": "door-handles",
+      "name": "Door Handles",
+      "blurb": "Explore door handles. Contact us for available models and prices."
+    },
+    {
+      "slug": "door-locks",
+      "name": "Door Locks",
+      "blurb": "Explore door locks. Contact us for available models and prices."
+    },
+    {
+      "slug": "furniture-fittings",
+      "name": "Furniture Fittings",
+      "blurb": "Explore furniture fittings. Contact us for available models and prices."
+    },
+    {
+      "slug": "interior-finishing-tools",
+      "name": "Interior & Finishing Tools",
+      "blurb": "Explore interior & finishing tools. Contact us for available models and prices."
+    },
+    {
+      "slug": "kitchen-hoods",
+      "name": "Kitchen Hoods",
+      "blurb": "Explore kitchen hoods. Contact us for available models and prices."
+    },
+    {
+      "slug": "measuring-tools",
+      "name": "Measuring Tools",
+      "blurb": "Explore measuring tools. Contact us for available models and prices."
+    },
+    {
+      "slug": "pressure-washers",
+      "name": "Pressure Washers",
+      "blurb": "Explore pressure washers. Contact us for available models and prices."
+    },
+    {
+      "slug": "professional-hand-tools",
+      "name": "Professional Hand Tools",
+      "blurb": "Explore professional hand tools. Contact us for available models and prices."
+    },
+    {
+      "slug": "safety-equipment",
+      "name": "Safety Equipment",
+      "blurb": "Explore safety equipment. Contact us for available models and prices."
+    },
+    {
+      "slug": "sealant-foam",
+      "name": "Sealant & Foam",
+      "blurb": "Explore sealant & foam. Contact us for available models and prices."
+    },
+    {
+      "slug": "manhole-covers",
+      "name": "Manhole covers",
+      "blurb": "Round and square covers with frames."
+    },
+    {
+      "slug": "tiles",
+      "name": "Tiles",
+      "blurb": "Explore tiles. Contact us for available models and prices."
+    },
+    {
+      "slug": "indoor-tiles",
+      "name": "Indoor Tiles",
+      "blurb": "Explore indoor tiles. Contact us for available models and prices."
+    },
+    {
+      "slug": "outdoor-tiles",
+      "name": "Outdoor Tiles",
+      "blurb": "Explore outdoor tiles. Contact us for available models and prices."
+    },
+    {
+      "slug": "water-purifier",
+      "name": "Water Purifier",
+      "blurb": "Explore water purifier. Contact us for available models and prices."
+    },
+    {
+      "slug": "water-filters",
+      "name": "Water Filters",
+      "blurb": "Explore water filters. Contact us for available models and prices."
+    },
+    {
+      "slug": "water-heaters",
+      "name": "Water heaters",
+      "blurb": "Storage tanks and instant shower heaters."
+    },
+    {
+      "slug": "electric-water-heaters",
+      "name": "Electric Water Heaters",
+      "blurb": "Explore electric water heaters. Contact us for available models and prices."
+    },
+    {
+      "slug": "instant-water-heaters",
+      "name": "Instant Water Heaters",
+      "blurb": "Explore instant water heaters. Contact us for available models and prices."
+    },
+    {
+      "slug": "machines-pumps",
+      "name": "Machines & Pumps",
+      "blurb": "Explore machines & pumps. Contact us for available models and prices."
+    },
+    {
+      "slug": "water-pumps",
+      "name": "Water pumps & controllers",
+      "blurb": "Jet, centrifugal, multistage and peripheral pumps, plus automatic pressure controllers."
+    },
+    {
+      "slug": "machines",
+      "name": "Machines",
+      "blurb": "Explore machines. Contact us for available models and prices."
+    },
+    {
+      "slug": "plumbing",
+      "name": "Plumbing",
+      "blurb": "Explore plumbing. Contact us for available models and prices."
+    },
+    {
+      "slug": "plumbing-accessories",
+      "name": "Plumbing Accessories",
+      "blurb": "Explore plumbing accessories. Contact us for available models and prices."
+    }
+  ],
+  "products": [
+    {
+      "slug": "marina-jet-pump-with-tank",
+      "category": "water-pumps",
+      "name": "Marina jet pump with pressure tank",
+      "price": 385000,
+      "images": [
+        "img_2199"
+      ],
+      "summary": "Self-priming jet pump fitted on a horizontal pressure tank, with gauge and flexible hose.",
+      "description": "A complete booster set: the jet pump sits on a horizontal pressure vessel with a pressure gauge and a flexible braided hose already connected. The tank keeps pressure steady so the pump does not start every time a tap opens.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Brand": "Marina",
+        "Type": "Jet pump with horizontal pressure tank",
+        "Comes with": "Pressure gauge, flexible hose"
+      },
+      "featured": true
+    },
+    {
+      "slug": "horizontal-multistage-pump",
+      "category": "water-pumps",
+      "name": "Horizontal multistage water pump",
+      "price": 295000,
+      "images": [
+        "img_2917",
+        "img_3257"
+      ],
+      "summary": "Stainless-steel multistage pump for steady pressure to upper floors and garden lines.",
+      "description": "A horizontal multistage pump with a stainless-steel body and a compact motor. Multiple impellers give a smooth, higher-pressure flow, suited to boosting supply to upper floors, showers and garden irrigation.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Type": "Horizontal multistage",
+        "Pump body": "Stainless steel"
+      },
+      "featured": true
+    },
+    {
+      "slug": "centrifugal-pump-blue-compact",
+      "category": "water-pumps",
+      "name": "Centrifugal water pump, blue",
+      "price": 165000,
+      "images": [
+        "img_2921"
+      ],
+      "summary": "Compact centrifugal pump with cast body for clean-water transfer and supply.",
+      "description": "A compact centrifugal pump with a blue cast body and terminal box on top. Used for clean-water supply, tank filling and general water transfer.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Type": "Centrifugal",
+        "Finish": "Blue cast body"
+      },
+      "featured": false
+    },
+    {
+      "slug": "centrifugal-pump-brass-inlet",
+      "category": "water-pumps",
+      "name": "Centrifugal pump with brass fittings",
+      "price": 210000,
+      "images": [
+        "img_3255"
+      ],
+      "summary": "Blue cast-body centrifugal pump with brass connectors.",
+      "description": "A robust centrifugal pump with a blue cast body and brass fittings. A dependable choice for domestic supply and irrigation.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Type": "Centrifugal",
+        "Finish": "Blue cast body, brass fittings"
+      },
+      "featured": false
+    },
+    {
+      "slug": "centrifugal-pump-heavy-duty",
+      "category": "water-pumps",
+      "name": "Heavy-duty centrifugal pump",
+      "price": 260000,
+      "images": [
+        "img_3268"
+      ],
+      "summary": "Large-body centrifugal pump for higher flow.",
+      "description": "A larger centrifugal pump with a heavy cast volute and finned motor for continuous duty. Suited to higher-flow supply, irrigation and transfer between tanks.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Type": "Centrifugal, heavy duty",
+        "Finish": "Blue cast body"
+      },
+      "featured": false
+    },
+    {
+      "slug": "peripheral-pump-yellow",
+      "category": "water-pumps",
+      "name": "Peripheral water pump, yellow motor",
+      "price": 85000,
+      "images": [
+        "img_3120",
+        "img_3253"
+      ],
+      "summary": "Small peripheral pump for household water supply and tank filling.",
+      "description": "A compact peripheral (vortex) pump with a black pump head and yellow motor housing. Good for small household supply, filling tanks and boosting pressure at a single point.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Type": "Peripheral (vortex)",
+        "Finish": "Yellow motor housing, black head"
+      },
+      "featured": false
+    },
+    {
+      "slug": "peripheral-pump-blue",
+      "category": "water-pumps",
+      "name": "Peripheral pump, blue cast body",
+      "price": 120000,
+      "images": [
+        "img_3269"
+      ],
+      "summary": "Peripheral pump with a cast body.",
+      "description": "A peripheral pump with a blue cast body and finned motor, made for small-scale domestic pressure and water transfer.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Type": "Peripheral (vortex)",
+        "Finish": "Blue cast body"
+      },
+      "featured": false
+    },
+    {
+      "slug": "pedrollo-pump-easy-press",
+      "category": "water-pumps",
+      "name": "Pedrollo pump with Easy Press controller",
+      "price": 240000,
+      "images": [
+        "img_3254",
+        "img_3267"
+      ],
+      "summary": "Peripheral pump supplied with the orange Easy Press controller mounted on it.",
+      "description": "A Pedrollo peripheral pump with the orange Easy Press controller fitted on the outlet. The controller starts the pump when a tap opens and stops it when the tap closes, and its gauge shows line pressure.\n\nPump size, power and flow rate vary by model. Tell us your building, number of floors and water source in chat and we will confirm the right pump before you pay.",
+      "specs": {
+        "Brand": "Pedrollo",
+        "Type": "Peripheral pump + automatic controller"
+      },
+      "featured": true
+    },
+    {
+      "slug": "easy-press-controller",
+      "category": "water-pumps",
+      "name": "Easy Press automatic pump controller",
+      "price": 95000,
+      "images": [
+        "img_3266"
+      ],
+      "summary": "Orange Pedrollo controller with pressure gauge, for automatic start and stop.",
+      "description": "The Easy Press controller turns a manual pump into an automatic one. It starts the pump when a tap opens, stops it when the tap closes, and shows pressure on its built-in gauge.\n\nFits on the outlet of your pump and works with most single-phase household pumps. Ask us to confirm compatibility with your pump.",
+      "specs": {
+        "Brand": "Pedrollo",
+        "Type": "Automatic pump controller",
+        "Built-in": "Pressure gauge"
+      },
+      "featured": false
+    },
+    {
+      "slug": "milano-automatic-pump-control",
+      "category": "water-pumps",
+      "name": "Milano automatic pump control",
+      "price": 48000,
+      "images": [
+        "img_3256"
+      ],
+      "summary": "Blue automatic pump controller with power, pump and failure indicator lights.",
+      "description": "An automatic pump controller with indicator lights for power, pump running and failure, and a restart button. Fitted between the pump and the pipework so the pump runs only when water is needed.\n\nFits on the outlet of your pump and works with most single-phase household pumps. Ask us to confirm compatibility with your pump.",
+      "specs": {
+        "Brand": "Milano",
+        "Indicators": "Power on, Pump on, Failure",
+        "Reset": "Restart button"
+      },
+      "featured": false
+    },
+    {
+      "slug": "automatic-pump-control-blue",
+      "category": "water-pumps",
+      "name": "Automatic pump control, light blue",
+      "price": 42000,
+      "images": [
+        "img_3264"
+      ],
+      "summary": "Light-blue automatic pump controller with status lights and restart button.",
+      "description": "An automatic pump control unit with status lights for power, pump and failure, and a restart button. Screws directly onto the pump outlet.\n\nFits on the outlet of your pump and works with most single-phase household pumps. Ask us to confirm compatibility with your pump.",
+      "specs": {
+        "Type": "Automatic pump control",
+        "Indicators": "Power on, Pump on, Failure",
+        "Reset": "Restart button"
+      },
+      "featured": false
+    },
+    {
+      "slug": "pressure-control-units-gauge",
+      "category": "water-pumps",
+      "name": "Pressure control units with gauge",
+      "price": 55000,
+      "images": [
+        "img_3265"
+      ],
+      "summary": "Mechanical pressure controllers with gauge, in blue and yellow.",
+      "description": "Pressure control units with a built-in gauge and a coloured cap, shown here in blue and yellow. They switch the pump on and off according to line pressure.\n\nFits on the outlet of your pump and works with most single-phase household pumps. Ask us to confirm compatibility with your pump.",
+      "specs": {
+        "Type": "Pressure control unit",
+        "Built-in": "Pressure gauge",
+        "Colours": "Blue, yellow"
+      },
+      "featured": false
+    },
+    {
+      "slug": "wall-hung-toilet-black-with-frame",
+      "category": "toilets",
+      "name": "Wall-hung toilet, matte black, with cistern frame",
+      "price": 540000,
+      "images": [
+        "img_3017"
+      ],
+      "summary": "Matte black wall-hung pan with slim seat and concealed cistern frame.",
+      "description": "A matte black wall-hung toilet with a slim seat. The steel frame and concealed cistern sit inside the wall and the flush plate is the only part you see.\n\nSeat, connectors and installation accessories can differ by model. Ask us in chat what is supplied with this toilet.",
+      "specs": {
+        "Type": "Wall-hung with concealed cistern frame",
+        "Finish": "Matte black"
+      },
+      "featured": true
+    },
+    {
+      "slug": "wall-hung-toilet-white-with-frame",
+      "category": "toilets",
+      "name": "Wall-hung toilet, white, with cistern frame",
+      "price": 480000,
+      "images": [
+        "img_3018"
+      ],
+      "summary": "White wall-hung pan with concealed cistern, in a black frame and grey flush plate.",
+      "description": "A white wall-hung toilet with a concealed cistern in a black steel frame and a grey flush plate. Frees the floor for easy cleaning.\n\nSeat, connectors and installation accessories can differ by model. Ask us in chat what is supplied with this toilet.",
+      "specs": {
+        "Type": "Wall-hung with concealed cistern frame",
+        "Finish": "White"
+      },
+      "featured": false
+    },
+    {
+      "slug": "dual-purpose-squat-sit-toilet",
+      "category": "toilets",
+      "name": "Dual-purpose squat / sit toilet",
+      "price": 320000,
+      "images": [
+        "img_3025",
+        "img_3055"
+      ],
+      "summary": "One-piece toilet that can be used seated or squatting.",
+      "description": "A one-piece toilet designed for both preferences: the moulded seat lets users sit, or squat over the pan. Useful for households and public buildings where both habits are common.\n\nSeat, connectors and installation accessories can differ by model. Ask us in chat what is supplied with this toilet.",
+      "specs": {
+        "Type": "One-piece, squat / sit dual purpose",
+        "Finish": "White"
+      },
+      "featured": true
+    },
+    {
+      "slug": "ceramic-squat-pan",
+      "category": "toilets",
+      "name": "Ceramic squat pan",
+      "price": 65000,
+      "images": [
+        "img_3027"
+      ],
+      "summary": "White ceramic squat pan with ribbed footrests.",
+      "description": "A white ceramic squat pan with ribbed non-slip footrests, for floor-level installation in homes, schools and public toilets.\n\nSeat, connectors and installation accessories can differ by model. Ask us in chat what is supplied with this toilet.",
+      "specs": {
+        "Type": "Squat pan",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "one-piece-toilet-white",
+      "category": "toilets",
+      "name": "One-piece toilet, white",
+      "price": 350000,
+      "images": [
+        "img_3040",
+        "img_3043"
+      ],
+      "summary": "One-piece toilet in gloss white with matching seat cover.",
+      "description": "A gloss white one-piece toilet with a sculpted cistern and matching seat cover. Easy to clean with a smooth, continuous surface.\n\nSeat, connectors and installation accessories can differ by model. Ask us in chat what is supplied with this toilet.",
+      "specs": {
+        "Type": "One-piece",
+        "Finish": "Gloss white"
+      },
+      "featured": true
+    },
+    {
+      "slug": "smart-toilet-automatic",
+      "category": "toilets",
+      "name": "Smart toilet with automatic lid and flush",
+      "price": 1450000,
+      "images": [
+        "img_3048",
+        "img_3051"
+      ],
+      "summary": "Tankless smart toilet: opens as you approach, flushes automatically, warm water.",
+      "description": "A tankless smart toilet. The lid opens automatically as someone approaches, a seat sensor flushes automatically, and a toe-touch sensor lifts, closes and flushes on demand. Instant warm water and a modern tankless design.\n\nSeat, connectors and installation accessories can differ by model. Ask us in chat what is supplied with this toilet.",
+      "specs": {
+        "Type": "Smart toilet, tankless",
+        "Features": "Auto-open lid, seat sensor flush, toe-touch sensor, instant warm water"
+      },
+      "featured": true
+    },
+    {
+      "slug": "whirlpool-bath-rectangular",
+      "category": "bathtubs",
+      "name": "Rectangular whirlpool bath with headrest",
+      "price": 1350000,
+      "images": [
+        "img_2979"
+      ],
+      "summary": "Acrylic whirlpool bath with jets, chrome grab handles and headrest.",
+      "description": "A rectangular acrylic whirlpool bath with hydro-massage jets, chrome grab handles, a headrest and a control panel on the rim.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Whirlpool / jacuzzi bath",
+        "Shape": "Rectangular",
+        "Features": "Jets, headrest, chrome handles"
+      },
+      "featured": true
+    },
+    {
+      "slug": "freestanding-bath-oval-floor-filler",
+      "category": "bathtubs",
+      "name": "Freestanding oval bath with floor-standing filler",
+      "price": 780000,
+      "images": [
+        "img_3056"
+      ],
+      "summary": "Oval freestanding acrylic bath shown with a floor-standing tub filler.",
+      "description": "A smooth oval freestanding acrylic bath in gloss white, photographed with a chrome floor-standing tub filler. Deep enough to soak, easy to wipe clean.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Oval",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-slipper-deck-tap",
+      "category": "bathtubs",
+      "name": "Freestanding slipper bath with deck tap",
+      "price": 820000,
+      "images": [
+        "img_3057"
+      ],
+      "summary": "Raised-end slipper bath shown with a deck-mounted tap.",
+      "description": "A slipper-style freestanding bath with raised ends and a sculpted profile, shown with a chrome deck-mounted tap.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Slipper",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-oval-plain",
+      "category": "bathtubs",
+      "name": "Freestanding oval bath",
+      "price": 690000,
+      "images": [
+        "img_3059"
+      ],
+      "summary": "Simple oval freestanding bath with overflow and no taps.",
+      "description": "A clean, low-profile oval freestanding bath in gloss white acrylic with an integrated overflow. Pair it with the tap of your choice.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Oval",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-slipper-filler",
+      "category": "bathtubs",
+      "name": "Freestanding slipper bath with tub filler",
+      "price": 850000,
+      "images": [
+        "img_3060"
+      ],
+      "summary": "One-sided slipper bath with a tall floor-standing tub filler.",
+      "description": "A freestanding slipper bath with one raised end, shown with a chrome floor-standing tub filler and handheld shower.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Slipper",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-double-slipper",
+      "category": "bathtubs",
+      "name": "Freestanding double-slipper bath",
+      "price": 890000,
+      "images": [
+        "img_3061"
+      ],
+      "summary": "Both ends raised, so two people can lean back comfortably.",
+      "description": "A double-slipper freestanding bath with both ends raised and sloped, shown with a chrome tub filler. Comfortable from either end.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Double slipper",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-brushed-filler",
+      "category": "bathtubs",
+      "name": "Freestanding compact oval bath with brushed filler",
+      "price": 720000,
+      "images": [
+        "img_3062"
+      ],
+      "summary": "Compact oval bath shown with a brushed-steel floor-standing filler.",
+      "description": "A compact oval freestanding bath, shown with a brushed-steel floor-standing tub filler. A good fit for smaller bathrooms.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Oval, compact",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-oval-chrome-filler",
+      "category": "bathtubs",
+      "name": "Freestanding oval bath with chrome filler",
+      "price": 760000,
+      "images": [
+        "img_3063"
+      ],
+      "summary": "Oval freestanding bath with sloping rim and chrome tub filler.",
+      "description": "An oval freestanding bath with a gently sloping rim, shown with a chrome tub filler and handheld shower.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Oval",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-black-filler",
+      "category": "bathtubs",
+      "name": "Freestanding oval bath with matte black filler",
+      "price": 800000,
+      "images": [
+        "img_3064"
+      ],
+      "summary": "Oval bath shown with a matte black floor-standing tub filler.",
+      "description": "A freestanding oval bath with a slim rim, shown with a matte black floor-standing tub filler for a modern look.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Oval",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "freestanding-bath-deck-mixer",
+      "category": "bathtubs",
+      "name": "Freestanding oval bath with deck mixer and shower",
+      "price": 830000,
+      "images": [
+        "img_3065"
+      ],
+      "summary": "Oval bath shown with a chrome deck-mounted mixer and hand shower.",
+      "description": "A freestanding oval bath with a wide rim, shown with a chrome deck-mounted mixer and a hand shower.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Freestanding",
+        "Shape": "Oval",
+        "Finish": "Gloss white acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "corner-bath",
+      "category": "bathtubs",
+      "name": "Corner bath",
+      "price": 650000,
+      "images": [
+        "img_3067"
+      ],
+      "summary": "Acrylic corner bath that makes use of a bathroom corner.",
+      "description": "A corner acrylic bath with a wide seat-like recess at the back. Makes good use of a bathroom corner and gives room to stretch.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Corner bath",
+        "Finish": "Acrylic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "corner-jacuzzi-glass-front",
+      "category": "bathtubs",
+      "name": "Corner jacuzzi with glass front panel",
+      "price": 1600000,
+      "images": [
+        "img_3068"
+      ],
+      "summary": "Corner whirlpool bath with glass panel, headrests and jets.",
+      "description": "A corner whirlpool bath with a glass front panel, two headrests, hydro jets and a chrome mixer. A showpiece for a master bathroom.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Whirlpool / jacuzzi bath",
+        "Shape": "Corner",
+        "Features": "Jets, two headrests, glass front panel"
+      },
+      "featured": true
+    },
+    {
+      "slug": "double-whirlpool-bath",
+      "category": "bathtubs",
+      "name": "Double whirlpool bath",
+      "price": 1550000,
+      "images": [
+        "img_3069"
+      ],
+      "summary": "Whirlpool bath for two, with two headrests and multiple jets.",
+      "description": "A rectangular whirlpool bath sized for two, with two black headrests, hydro-massage jets and a chrome mixer on the rim.\n\nTaps, fillers and waste fittings shown in the picture are not automatically part of the bathtub. Ask us to confirm exactly what is included, and the available sizes.",
+      "specs": {
+        "Type": "Whirlpool / jacuzzi bath",
+        "Shape": "Rectangular, two-person",
+        "Features": "Jets, two headrests"
+      },
+      "featured": false
+    },
+    {
+      "slug": "sliding-shower-screen-four-panel",
+      "category": "showers",
+      "name": "Four-panel sliding shower screen",
+      "price": 520000,
+      "images": [
+        "img_3129"
+      ],
+      "summary": "Wide sliding glass screen with chrome frame and centre handles.",
+      "description": "A four-panel sliding shower screen with a chrome frame and centre handles, for a wide alcove or walk-in shower.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Sliding screen, four panels",
+        "Frame": "Chrome"
+      },
+      "featured": false
+    },
+    {
+      "slug": "quadrant-shower-cabin-clear",
+      "category": "showers",
+      "name": "Quadrant shower cabin, clear glass",
+      "price": 640000,
+      "images": [
+        "img_3183"
+      ],
+      "summary": "Corner quadrant cabin with clear glass and deep base tray.",
+      "description": "A quadrant shower cabin with clear glass, sliding doors and a deep white base tray. Ideal for saving space in a corner.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Quadrant cabin with tray",
+        "Glass": "Clear"
+      },
+      "featured": false
+    },
+    {
+      "slug": "quadrant-shower-cabin-frosted",
+      "category": "showers",
+      "name": "Quadrant shower cabin, frosted glass",
+      "price": 660000,
+      "images": [
+        "img_3184"
+      ],
+      "summary": "Same quadrant cabin with frosted glass for extra privacy.",
+      "description": "A quadrant shower cabin with frosted glass for privacy, sliding doors and a deep white base tray.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Quadrant cabin with tray",
+        "Glass": "Frosted"
+      },
+      "featured": false
+    },
+    {
+      "slug": "square-shower-cabin-clear",
+      "category": "showers",
+      "name": "Square shower cabin, clear glass",
+      "price": 620000,
+      "images": [
+        "img_3185"
+      ],
+      "summary": "Square corner cabin with sliding doors and base tray.",
+      "description": "A square corner shower cabin with clear glass, sliding doors and a low white base tray.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Square cabin with tray",
+        "Glass": "Clear"
+      },
+      "featured": false
+    },
+    {
+      "slug": "quadrant-enclosure-chrome-clear",
+      "category": "showers",
+      "name": "Quadrant enclosure, chrome frame",
+      "price": 590000,
+      "images": [
+        "img_3241"
+      ],
+      "summary": "Curved sliding-door enclosure with chrome frame and clear glass.",
+      "description": "A curved quadrant enclosure with a polished chrome frame, clear glass and sliding doors.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Quadrant enclosure",
+        "Frame": "Chrome",
+        "Glass": "Clear"
+      },
+      "featured": false
+    },
+    {
+      "slug": "quadrant-enclosure-striped-glass",
+      "category": "showers",
+      "name": "Quadrant enclosure, striped glass",
+      "price": 640000,
+      "images": [
+        "img_3242"
+      ],
+      "summary": "Quadrant enclosure with horizontally striped privacy glass and tray.",
+      "description": "A quadrant enclosure with striped frosted glass that gives privacy at eye level while staying bright, complete with a white tray.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Quadrant enclosure with tray",
+        "Frame": "Chrome",
+        "Glass": "Striped frosted"
+      },
+      "featured": false
+    },
+    {
+      "slug": "square-enclosure-black-striped",
+      "category": "showers",
+      "name": "Square enclosure, black frame, striped glass",
+      "price": 690000,
+      "images": [
+        "img_3243"
+      ],
+      "summary": "Square corner-entry enclosure with matte black frame.",
+      "description": "A square enclosure with a slim matte black frame and striped privacy glass. A modern look for contemporary bathrooms.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Square enclosure",
+        "Frame": "Matte black",
+        "Glass": "Striped frosted"
+      },
+      "featured": true
+    },
+    {
+      "slug": "quadrant-enclosure-black-striped",
+      "category": "showers",
+      "name": "Quadrant enclosure, black frame, striped glass",
+      "price": 710000,
+      "images": [
+        "img_3244"
+      ],
+      "summary": "Curved enclosure with matte black frame and striped glass.",
+      "description": "A quadrant enclosure with a matte black frame, striped privacy glass and sliding doors.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Quadrant enclosure",
+        "Frame": "Matte black",
+        "Glass": "Striped frosted"
+      },
+      "featured": false
+    },
+    {
+      "slug": "corner-entry-enclosure-black",
+      "category": "showers",
+      "name": "Corner-entry enclosure, black frame",
+      "price": 680000,
+      "images": [
+        "img_3245"
+      ],
+      "summary": "Corner-entry square enclosure with two sliding doors.",
+      "description": "A corner-entry square enclosure with a matte black frame and two sliding doors, striped glass in the middle band.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Corner-entry enclosure",
+        "Frame": "Matte black",
+        "Glass": "Striped frosted"
+      },
+      "featured": false
+    },
+    {
+      "slug": "rectangular-sliding-enclosure-striped",
+      "category": "showers",
+      "name": "Rectangular sliding enclosure, striped glass",
+      "price": 650000,
+      "images": [
+        "img_3246"
+      ],
+      "summary": "Rectangular walk-in enclosure with one sliding door.",
+      "description": "A rectangular enclosure with a sliding door and striped privacy glass. A neat fit for narrow bathrooms.\n\nGlass thickness, frame finish and sizes vary. Ask us for the sizes in stock and we will confirm them on your proforma.",
+      "specs": {
+        "Type": "Rectangular enclosure",
+        "Frame": "Chrome",
+        "Glass": "Striped frosted"
+      },
+      "featured": false
+    },
+    {
+      "slug": "shower-tray-square-textured",
+      "category": "showers",
+      "name": "Square shower tray, anti-slip",
+      "price": 120000,
+      "images": [
+        "img_3193"
+      ],
+      "summary": "White square tray with dotted anti-slip surface.",
+      "description": "A white square shower tray with a dotted anti-slip surface and a central waste outlet.\n\nSold as a tray only. Ask us about the waste kit and the sizes in stock.",
+      "specs": {
+        "Type": "Shower tray, square",
+        "Surface": "Anti-slip dots"
+      },
+      "featured": false
+    },
+    {
+      "slug": "shower-tray-square-shallow",
+      "category": "showers",
+      "name": "Square shower tray, shallow",
+      "price": 110000,
+      "images": [
+        "img_3194"
+      ],
+      "summary": "Low-profile square tray with textured base.",
+      "description": "A shallow white square shower tray with a textured base and a corner waste.\n\nSold as a tray only. Ask us about the waste kit and the sizes in stock.",
+      "specs": {
+        "Type": "Shower tray, square, shallow",
+        "Surface": "Textured"
+      },
+      "featured": false
+    },
+    {
+      "slug": "shower-tray-quadrant",
+      "category": "showers",
+      "name": "Quadrant shower tray",
+      "price": 115000,
+      "images": [
+        "img_3240"
+      ],
+      "summary": "Curved corner tray with anti-slip dots.",
+      "description": "A white quadrant (quarter-circle) shower tray with dotted anti-slip surface, made for corner cabins.\n\nSold as a tray only. Ask us about the waste kit and the sizes in stock.",
+      "specs": {
+        "Type": "Shower tray, quadrant",
+        "Surface": "Anti-slip dots"
+      },
+      "featured": false
+    },
+    {
+      "slug": "shower-tray-quadrant-raised",
+      "category": "showers",
+      "name": "Quadrant shower tray on feet",
+      "price": 135000,
+      "images": [
+        "img_3248"
+      ],
+      "summary": "Deep quadrant tray standing on adjustable feet.",
+      "description": "A deeper quadrant shower tray on adjustable feet, giving space underneath for the waste pipe.\n\nSold as a tray only. Ask us about the waste kit and the sizes in stock.",
+      "specs": {
+        "Type": "Shower tray, quadrant, raised",
+        "Fitting": "Adjustable feet"
+      },
+      "featured": false
+    },
+    {
+      "slug": "shower-tray-rectangular",
+      "category": "showers",
+      "name": "Rectangular shower tray",
+      "price": 125000,
+      "images": [
+        "img_3249"
+      ],
+      "summary": "White rectangular tray with anti-slip surface and chrome waste cover.",
+      "description": "A white rectangular shower tray with an anti-slip surface and a chrome waste cover.\n\nSold as a tray only. Ask us about the waste kit and the sizes in stock.",
+      "specs": {
+        "Type": "Shower tray, rectangular",
+        "Surface": "Anti-slip dots"
+      },
+      "featured": false
+    },
+    {
+      "slug": "shower-tray-square-waste-kit",
+      "category": "showers",
+      "name": "Square shower tray with waste kit",
+      "price": 140000,
+      "images": [
+        "img_3251"
+      ],
+      "summary": "Square tray shown with a flexible waste and chrome cover.",
+      "description": "A square shower tray with a dotted anti-slip surface, shown with a flexible waste trap and chrome waste cover.\n\nSold as a tray only. Ask us about the waste kit and the sizes in stock.",
+      "specs": {
+        "Type": "Shower tray, square",
+        "Includes": "Waste kit (see photo)"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-wall-hung-bowl",
+      "category": "urinals",
+      "name": "Wall-hung urinal bowl",
+      "price": 95000,
+      "images": [
+        "img_3208"
+      ],
+      "summary": "Classic white wall-hung urinal bowl.",
+      "description": "A classic white ceramic wall-hung urinal bowl with a deep, smooth inner surface.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Wall-hung urinal",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-slim-floor",
+      "category": "urinals",
+      "name": "Slim urinal with side panels",
+      "price": 140000,
+      "images": [
+        "img_3209"
+      ],
+      "summary": "Narrow urinal with a tall body that meets the floor.",
+      "description": "A slim, tall urinal with side panels that give privacy without separate dividers.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Slim urinal with side panels",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-oval-bowl",
+      "category": "urinals",
+      "name": "Oval urinal bowl",
+      "price": 90000,
+      "images": [
+        "img_3210"
+      ],
+      "summary": "Oval wall-hung urinal, white ceramic.",
+      "description": "An oval wall-hung urinal bowl in white ceramic with a smooth inner surface for easy rinsing.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Wall-hung urinal",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-with-cistern-sensor",
+      "category": "urinals",
+      "name": "Urinal with top cover and sensor",
+      "price": 190000,
+      "images": [
+        "img_3211"
+      ],
+      "summary": "Wall-hung urinal with a covered top and sensor window.",
+      "description": "A wall-hung urinal with a covered top section and a sensor window for automatic flushing.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Wall-hung urinal, sensor",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-top-inlet",
+      "category": "urinals",
+      "name": "Urinal with top water inlet",
+      "price": 100000,
+      "images": [
+        "img_3212"
+      ],
+      "summary": "Wall-hung urinal bowl with chrome top inlet pipe.",
+      "description": "A wall-hung urinal with a chrome water inlet at the top and a bottom outlet, for a classic exposed-pipe installation.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Wall-hung urinal",
+        "Feed": "Top inlet"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-stall-sensor",
+      "category": "urinals",
+      "name": "Stall urinal with sensor",
+      "price": 210000,
+      "images": [
+        "img_3233"
+      ],
+      "summary": "Floor-standing stall urinal with sensor flush.",
+      "description": "A floor-standing stall urinal in white ceramic with a sensor window for automatic flushing. Heavy use, easy to keep clean.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Stall urinal, sensor",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-rectangular-sensor",
+      "category": "urinals",
+      "name": "Rectangular urinal with sensor",
+      "price": 185000,
+      "images": [
+        "img_3235"
+      ],
+      "summary": "Rectangular wall-hung urinal with sensor plate.",
+      "description": "A rectangular wall-hung urinal with a sensor plate on top and a wide bowl.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Wall-hung urinal, sensor",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-small-bowl",
+      "category": "urinals",
+      "name": "Small urinal bowl",
+      "price": 75000,
+      "images": [
+        "img_3236"
+      ],
+      "summary": "Compact bowl with side fixing holes.",
+      "description": "A compact white ceramic urinal bowl with a top inlet and side holes for fixing.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Wall-hung urinal, compact",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-partition-curved",
+      "category": "urinals",
+      "name": "Urinal partition, curved",
+      "price": 45000,
+      "images": [
+        "img_3216"
+      ],
+      "summary": "Curved white privacy divider between urinals.",
+      "description": "A white ceramic privacy divider with a rounded profile, installed between urinals.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Urinal partition",
+        "Finish": "White ceramic"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-partition-tall",
+      "category": "urinals",
+      "name": "Urinal partition, tall",
+      "price": 48000,
+      "images": [
+        "img_3217"
+      ],
+      "summary": "Tall privacy divider with rounded top edge.",
+      "description": "A tall white privacy divider for urinal rows, with a rounded top edge and a foot at the base.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Urinal partition",
+        "Finish": "White"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-partition-grey",
+      "category": "urinals",
+      "name": "Urinal partition with fixing screws",
+      "price": 42000,
+      "images": [
+        "img_3218"
+      ],
+      "summary": "Shaped divider with visible fixing screws.",
+      "description": "A shaped urinal divider panel that is screwed to the wall, as shown in the picture.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Urinal partition",
+        "Fixing": "Screw-fixed"
+      },
+      "featured": false
+    },
+    {
+      "slug": "urinal-partition-ribbed",
+      "category": "urinals",
+      "name": "Urinal partition, ribbed back",
+      "price": 40000,
+      "images": [
+        "img_3220"
+      ],
+      "summary": "Lightweight divider with reinforced ribs on the back.",
+      "description": "A urinal divider with reinforcing ribs moulded into the back for strength without weight.\n\nAsk us about the flush valve, fixing set and sensor options for this urinal.",
+      "specs": {
+        "Type": "Urinal partition",
+        "Finish": "White"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-shower-drain-set",
+      "category": "drains",
+      "name": "Linear shower drain channels, four sizes",
+      "price": 65000,
+      "images": [
+        "img_2912"
+      ],
+      "summary": "Stainless and black channel drains with removable grate, in four lengths.",
+      "description": "Linear shower channels in stainless steel and black, shown in four lengths. Slotted removable grates with a hair strainer beneath make cleaning quick.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Linear shower channel",
+        "Finish": "Stainless steel, black",
+        "Lengths": "Four sizes (see photo)"
+      },
+      "featured": true
+    },
+    {
+      "slug": "floor-trap-chrome-lid",
+      "category": "drains",
+      "name": "Square floor trap with chrome lid",
+      "price": 18000,
+      "images": [
+        "img_3155"
+      ],
+      "summary": "Square floor drain with a round chrome lid.",
+      "description": "A square floor trap with a round chrome lid that lifts for cleaning. Sits flush with the tile.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Floor trap",
+        "Finish": "Chrome"
+      },
+      "featured": false
+    },
+    {
+      "slug": "floor-drain-cover-disc",
+      "category": "drains",
+      "name": "Square floor drain with blanking disc",
+      "price": 15000,
+      "images": [
+        "img_3157"
+      ],
+      "summary": "Chrome-finish floor drain shown with the round cover disc removed.",
+      "description": "A square floor drain with a slotted round strainer and a separate round cover disc.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Floor drain",
+        "Finish": "Chrome"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-drain-gunmetal",
+      "category": "drains",
+      "name": "Linear shower channel, dark stainless",
+      "price": 58000,
+      "images": [
+        "img_3160"
+      ],
+      "summary": "Long shallow channel with a dark finish.",
+      "description": "A long, shallow linear channel with a dark gunmetal finish and a centre outlet.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Linear shower channel",
+        "Finish": "Dark stainless"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-drain-slotted-short",
+      "category": "drains",
+      "name": "Linear drain with slotted grate",
+      "price": 42000,
+      "images": [
+        "img_3221"
+      ],
+      "summary": "Compact slotted stainless channel with a centre outlet.",
+      "description": "A compact linear drain with a slotted stainless grate and a centre outlet.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Linear drain",
+        "Finish": "Stainless steel"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-drain-slotted-wide",
+      "category": "drains",
+      "name": "Wide slotted linear drain",
+      "price": 46000,
+      "images": [
+        "img_3222"
+      ],
+      "summary": "Heavier slotted grate with a side outlet.",
+      "description": "A linear drain with wide slots and a raised frame, with the outlet at the side.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Linear drain",
+        "Finish": "Stainless steel"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-drain-tile-insert",
+      "category": "drains",
+      "name": "Linear drain, tile insert",
+      "price": 72000,
+      "images": [
+        "img_3223"
+      ],
+      "summary": "Invisible channel: the grate holds a piece of your own tile.",
+      "description": "A tile-insert linear drain. The cover is a tray you fill with the same tile as the floor, so the drain almost disappears.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Tile-insert linear drain",
+        "Finish": "Stainless steel frame"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-drain-polished",
+      "category": "drains",
+      "name": "Linear drain, polished flat cover",
+      "price": 60000,
+      "images": [
+        "img_3224"
+      ],
+      "summary": "Long polished channel with a flat slit cover.",
+      "description": "A long polished linear drain with a flat cover and a fine slit for water to pass, with a centre outlet.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Linear drain",
+        "Finish": "Polished stainless steel"
+      },
+      "featured": false
+    },
+    {
+      "slug": "linear-drain-grate",
+      "category": "drains",
+      "name": "Linear drain, bar grate",
+      "price": 68000,
+      "images": [
+        "img_3225"
+      ],
+      "summary": "Long channel with a bar grate.",
+      "description": "A long linear drain with a bar-style grate that lifts out for cleaning, and a centre outlet.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Linear drain",
+        "Finish": "Stainless steel"
+      },
+      "featured": false
+    },
+    {
+      "slug": "floor-drain-chrome-round-grate",
+      "category": "drains",
+      "name": "Chrome floor drain, round grate",
+      "price": 22000,
+      "images": [
+        "img_3226"
+      ],
+      "summary": "Square chrome plate with round slotted grate and PVC outlet.",
+      "description": "A square chrome floor drain plate with a round slotted grate, on a PVC outlet body.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Floor drain",
+        "Finish": "Chrome plate, PVC outlet"
+      },
+      "featured": false
+    },
+    {
+      "slug": "tile-insert-square-drains",
+      "category": "drains",
+      "name": "Tile-insert square drains",
+      "price": 38000,
+      "images": [
+        "img_3228"
+      ],
+      "summary": "Square drains with a removable cover for your own tile.",
+      "description": "Square drains with a stainless rim and a cover that takes a piece of your own tile. Shown in two heights.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Tile-insert square drain",
+        "Finish": "Stainless rim"
+      },
+      "featured": false
+    },
+    {
+      "slug": "pvc-drain-side-outlet",
+      "category": "drains",
+      "name": "PVC floor drain with side outlet",
+      "price": 16000,
+      "images": [
+        "img_3229"
+      ],
+      "summary": "Square grey grate with a side outlet pipe.",
+      "description": "A grey PVC floor drain with a square grate and a side outlet pipe, for wet rooms and washing areas.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Floor drain, side outlet",
+        "Material": "PVC"
+      },
+      "featured": false
+    },
+    {
+      "slug": "era-roof-balcony-outlet",
+      "category": "drains",
+      "name": "ERA balcony / roof outlet",
+      "price": 20000,
+      "images": [
+        "img_3230"
+      ],
+      "summary": "Angled grate outlet for balconies and roofs.",
+      "description": "An ERA angled-grate outlet for balconies and flat roofs, with a spigot that connects to the downpipe.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Brand": "ERA",
+        "Type": "Balcony / roof outlet",
+        "Material": "PVC"
+      },
+      "featured": false
+    },
+    {
+      "slug": "pvc-floor-drain-square",
+      "category": "drains",
+      "name": "Square PVC floor drain",
+      "price": 12000,
+      "images": [
+        "img_3231"
+      ],
+      "summary": "Grey square grate on a white PVC body.",
+      "description": "A standard square floor drain with a grey grate on a white PVC body.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Floor drain",
+        "Material": "PVC"
+      },
+      "featured": false
+    },
+    {
+      "slug": "square-floor-drain-round-strainer",
+      "category": "drains",
+      "name": "Square floor drain, round strainer",
+      "price": 12000,
+      "images": [
+        "img_3232"
+      ],
+      "summary": "Square plate with a round slotted strainer.",
+      "description": "A square floor drain plate with a round slotted strainer, easy to lift for cleaning.\n\nOutlet size and length differ by model. Send us the size you need in chat and we will confirm it on your proforma.",
+      "specs": {
+        "Type": "Floor drain"
+      },
+      "featured": false
+    },
+    {
+      "slug": "milano-storage-heater-50l",
+      "category": "electric-water-heaters",
+      "name": "Milano storage water heater, 50 L",
+      "price": 250000,
+      "images": [
+        "img_3195"
+      ],
+      "summary": "Vertical 50-litre storage heater with thermometer and two control knobs.",
+      "description": "A Milano vertical storage water heater marked 50 L, with a temperature gauge on the front and two control knobs at the base.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Milano",
+        "Capacity": "50 L (marked on the tank)",
+        "Type": "Storage tank"
+      },
+      "featured": true
+    },
+    {
+      "slug": "milano-storage-heater-vertical",
+      "category": "electric-water-heaters",
+      "name": "Milano storage water heater, vertical",
+      "price": 240000,
+      "images": [
+        "img_3196"
+      ],
+      "summary": "Vertical storage heater with thermometer and control knobs.",
+      "description": "A Milano vertical storage water heater with a front temperature gauge and control knobs at the base.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Milano",
+        "Type": "Storage tank"
+      },
+      "featured": false
+    },
+    {
+      "slug": "milano-round-heater",
+      "category": "electric-water-heaters",
+      "name": "Milano compact round water heater",
+      "price": 190000,
+      "images": [
+        "img_3197"
+      ],
+      "summary": "Small round heater with blue ring, for a sink or kitchen.",
+      "description": "A compact round Milano heater with a blue ring, for a single outlet. The copper connectors are at the bottom.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Milano",
+        "Type": "Compact storage heater"
+      },
+      "featured": false
+    },
+    {
+      "slug": "centon-instant-shower-heater",
+      "category": "instant-water-heaters",
+      "name": "Centon instant shower heater with shower set",
+      "price": 120000,
+      "images": [
+        "img_3270"
+      ],
+      "summary": "Instant heater with dial control, sold with a multi-function shower set.",
+      "description": "A Centon instant water heater with a dial control, shown with a shower rail and a multi-function hand shower (main, rinse, pulsation and misty sprays).\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Centon",
+        "Type": "Instant shower heater",
+        "Shown with": "Shower set"
+      },
+      "featured": false
+    },
+    {
+      "slug": "milano-instant-heater-white",
+      "category": "instant-water-heaters",
+      "name": "Milano instant shower heater, white",
+      "price": 95000,
+      "images": [
+        "img_3272"
+      ],
+      "summary": "White instant heater with black control panel, shown with a shower rail.",
+      "description": "A white Milano instant shower heater with a black control panel, shown with a sliding shower rail and hand shower.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Milano",
+        "Type": "Instant shower heater",
+        "Colour": "White"
+      },
+      "featured": false
+    },
+    {
+      "slug": "milano-instant-heater-gold",
+      "category": "instant-water-heaters",
+      "name": "Milano instant shower heater, gold",
+      "price": 98000,
+      "images": [
+        "img_3274"
+      ],
+      "summary": "Gold-finish instant heater with two dials and indicator lights.",
+      "description": "A gold-finish Milano instant shower heater with two control dials and indicator lights, shown with a shower rail and hand shower.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Milano",
+        "Type": "Instant shower heater",
+        "Colour": "Gold"
+      },
+      "featured": false
+    },
+    {
+      "slug": "ariston-compact-heater",
+      "category": "electric-water-heaters",
+      "name": "Ariston compact storage heater",
+      "price": 210000,
+      "images": [
+        "img_3276"
+      ],
+      "summary": "Wide, compact Ariston tank for tight spaces.",
+      "description": "An Ariston compact storage water heater with a wide, low body and a front control panel, suited to tight spaces.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Ariston",
+        "Type": "Compact storage heater"
+      },
+      "featured": false
+    },
+    {
+      "slug": "ariston-vertical-heater",
+      "category": "electric-water-heaters",
+      "name": "Ariston vertical storage heater",
+      "price": 270000,
+      "images": [
+        "img_3277"
+      ],
+      "summary": "Tall Ariston storage heater with round control at the base.",
+      "description": "An Ariston vertical storage water heater with a round control at the base.\n\nCapacity and power rating are confirmed on your proforma. Ask us in chat which size suits your household.",
+      "specs": {
+        "Brand": "Ariston",
+        "Type": "Storage tank"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-round-hinged",
+      "category": "manhole-covers",
+      "name": "Round manhole cover with hinged frame",
+      "price": 78000,
+      "images": [
+        "img_3318"
+      ],
+      "summary": "Round black cover with cross pattern, a lift handle and a hinged frame.",
+      "description": "A round black manhole cover with a non-slip cross pattern, a recessed lift handle and a hinged frame that stays attached when opened.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Round",
+        "Finish": "Black",
+        "Feature": "Hinged frame, recessed handle"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-round-cross-pattern",
+      "category": "manhole-covers",
+      "name": "Round manhole cover, cross pattern",
+      "price": 65000,
+      "images": [
+        "img_3319"
+      ],
+      "summary": "Heavy round black cover with cross pattern and lift handle.",
+      "description": "A heavy round black manhole cover with a cross-pattern top and a recessed lift handle.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Round",
+        "Finish": "Black"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-round-grid",
+      "category": "manhole-covers",
+      "name": "Round manhole cover, grid pattern",
+      "price": 62000,
+      "images": [
+        "img_3320"
+      ],
+      "summary": "Round dark cover with a square grid surface and frame.",
+      "description": "A round dark manhole cover and frame with a square-grid anti-slip surface.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Round",
+        "Finish": "Dark grey"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-round-light-grey",
+      "category": "manhole-covers",
+      "name": "Round manhole cover, light grey",
+      "price": 52000,
+      "images": [
+        "img_3321"
+      ],
+      "summary": "Compact light-grey round cover with frame.",
+      "description": "A compact round manhole cover in light grey with a matching frame.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Round",
+        "Finish": "Light grey"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-square-grey",
+      "category": "manhole-covers",
+      "name": "Square manhole cover, grey",
+      "price": 55000,
+      "images": [
+        "img_3322"
+      ],
+      "summary": "Grey square cover with grid pattern.",
+      "description": "A square manhole cover in grey with a grid-pattern surface and matching frame.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Square",
+        "Finish": "Grey"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-square-handles",
+      "category": "manhole-covers",
+      "name": "Square manhole cover with lift handles",
+      "price": 72000,
+      "images": [
+        "img_3323"
+      ],
+      "summary": "Square black cover with diamond pattern and lift handle.",
+      "description": "A square black manhole cover with a diamond pattern and a folding lift handle.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Square",
+        "Finish": "Black"
+      },
+      "featured": false
+    },
+    {
+      "slug": "manhole-square-ribbed",
+      "category": "manhole-covers",
+      "name": "Square manhole cover, ribbed",
+      "price": 68000,
+      "images": [
+        "img_3324"
+      ],
+      "summary": "Square cover with raised ribs and two lift points.",
+      "description": "A square manhole cover with raised ribs across the top and two lift points.\n\nLoad class, frame size and material grade vary by model. Tell us where it will be installed (garden, walkway, driveway) and we will advise.",
+      "specs": {
+        "Shape": "Square",
+        "Finish": "Dark grey"
+      },
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "matte-hardware-php-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional development tests and PostgreSQL migration tools; not required by the PHP application.",
+  "scripts": {
+    "test:appearance": "node tests/appearance.cjs",
+    "test:departments": "node tests/departments.cjs",
+    "test:api": "node tests/api.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "test:checkout": "node tests/checkout.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "dotenv": "16.6.1",
+    "pg": "8.23.0"
+  }
+}
