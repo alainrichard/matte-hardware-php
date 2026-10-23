@@ -8,5 +8,12 @@ const body={customer:{name:'Concurrency fixture',phone:'0788553011'},invoiceRequ
 const results=await Promise.all([call(primary,'/orders',body),call(secondary,'/orders',body)]);assert.deepEqual(results.map(r=>r.status).sort(),[201,422]);
 const order=results.find(r=>r.status===201).data;assert.equal((await call(primary,'/admin/products/'+p.data.id,null,token)).data.stockQuantity,0);
 const cancelled=await Promise.all([call(primary,'/orders/'+order.token+'/cancel',{}),call(secondary,'/orders/'+order.token+'/cancel',{})]);assert.ok(cancelled.every(r=>r.status===200));assert.equal((await call(primary,'/admin/products/'+p.data.id,null,token)).data.stockQuantity,1);
-console.log('PASS: concurrent checkouts cannot oversell; concurrent cancellation restores stock exactly once across two PHP processes.');
+const keyed={...body,requestId:crypto.randomUUID()};
+const retries=await Promise.all([call(primary,'/orders',keyed),call(secondary,'/orders',keyed)]);
+assert.ok(retries.every(r=>r.status===201));assert.equal(retries[0].data.token,retries[1].data.token);
+assert.equal((await call(primary,'/admin/products/'+p.data.id,null,token)).data.stockQuantity,0);
+assert.equal((await call(primary,'/orders',{...keyed,notes:'changed'})).status,409);
+assert.equal((await call(primary,'/orders/'+retries[0].data.token+'/cancel',{})).status,200);
+assert.equal((await call(primary,'/admin/products/'+p.data.id,null,token)).data.stockQuantity,1);
+console.log('PASS: concurrent checkouts cannot oversell; identical retries create one order; cancellation restores stock exactly once across two PHP processes.');
 })().catch(e=>{console.error(e);process.exit(1);});

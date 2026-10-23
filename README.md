@@ -98,6 +98,14 @@ After migration, the databases are independent. Stop writes to the old system fo
 
 ## Development checks
 
+### Updating an existing installation
+
+Back up your database and uploads, pull the update, then run `php scripts/console.php init` with your normal private environment configuration. This adds the checkout retry table without replacing existing records. Browser checkout retries reuse a request ID so concurrent or repeated submissions create one order and reserve stock once.
+
+All four payment methods are available: MTN MoMo, Airtel Money, bank transfer and card. Configure merchant numbers, bank details and HTTPS payment links in the administration settings; keep MTN API credentials in the private `.env`. Unconfigured methods display assistance instructions. Airtel/card links and manually submitted references require staff verification; they are not automatic provider integrations. MTN sandbox tests do not mark an order paid. Payment amounts are recorded in RWF; USD is a display equivalent.
+
+Submitted references are locked while awaiting verification, and paid/processing orders no longer show duplicate payment forms. Administrators verify receipt before marking manual payments paid.
+
 ```powershell
 npm ci
 # Browser tests use locally installed Microsoft Edge through Playwright.
@@ -121,7 +129,10 @@ $env:MATTE_TEST_ENV=(Resolve-Path storage/test.env).Path
 npm run test:api
 npm run test:browser
 npm run test:checkout
+node tests/payment-ui.cjs
 ```
+
+For concurrency checks, start a second PHP server on `127.0.0.1:8190` using the same test environment, then run `node tests/concurrency.cjs`.
 
 The test configuration rejects database names that do not end in `_test`. Clear `MATTE_ENV_FILE` after testing before running commands against another database. `tests/migrated.cjs` and `tests/apache-concurrency.cjs` are local acceptance checks requiring private configured credentials; migrated checks also require the private source snapshot. They do not modify business records. `tests/payment.php` runs payment/webhook scenarios inside rolled-back transactions without external requests.
 
